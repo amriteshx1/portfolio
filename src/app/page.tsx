@@ -15,6 +15,11 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="h-[30vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full w-[60%] flex items-center justify-center border-x border-x-neutral-800 neutral-pattern">
+        </div>
+      </div>
+
       
     </div>
   );
