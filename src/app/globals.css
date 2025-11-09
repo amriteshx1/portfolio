@@ -25,4 +25,17 @@ body {
   font-family: var(--font-saira), Arial, Helvetica, sans-serif;
 }
 
+.dotted-pattern {
+  background-color: #000;
+  opacity: 1;
+  background-image: radial-gradient(#6c6c6c 0.5px, #000 0.5px);
+  background-size: 10px 10px;
+}
 
+.neutral-pattern{
+  background-color: #000000;
+opacity: 1;
+background-image:  linear-gradient(30deg, #382d2d 12%, transparent 12.5%, transparent 87%, #382d2d 87.5%, #382d2d), linear-gradient(150deg, #382d2d 12%, transparent 12.5%, transparent 87%, #382d2d 87.5%, #382d2d), linear-gradient(30deg, #382d2d 12%, transparent 12.5%, transparent 87%, #382d2d 87.5%, #382d2d), linear-gradient(150deg, #382d2d 12%, transparent 12.5%, transparent 87%, #382d2d 87.5%, #382d2d), linear-gradient(60deg, #382d2d77 25%, transparent 25.5%, transparent 75%, #382d2d77 75%, #382d2d77), linear-gradient(60deg, #382d2d77 25%, transparent 25.5%, transparent 75%, #382d2d77 75%, #382d2d77);
+background-size: 24px 42px;
+background-position: 0 0, 0 0, 12px 21px, 12px 21px, 0 0, 12px 21px;
+}
