@@ -184,7 +184,40 @@ export default function Home() {
         </div>
       </div>
 
-      
+      <div className="h-[65vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+          <div className="h-full w-[20%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
+
+          </div>
+          <div className="h-full w-[80%] flex flex-col items-start justify-center text-stone-400">
+            <p className="ml-5 tracking-tight text-[22px] text-white">Experience</p>
+            <p className="ml-5 text-xs">Work I’ve done outside personal projects.</p>
+            <div className="flex flex-col justify-start items-start w-full mt-5">
+              <div className="flex flex-col justify-start items-start">
+                <p className="ml-5 text-sm flex justify-start items-center gap-2 text-stone-300"><MilestoneIcon className="size-4"/>OSS Contributions</p>
+                <p className="ml-10 mt-2 text-[13px] flex justify-start items-center gap-2 text-stone-400"><GitMergeIcon className="size-3" />antiwork/gumboard</p>
+                <p className="ml-15 mt-2 text-[11px] flex justify-start items-center gap-0.5 text-stone-400/90"><DotIcon className="size-3" />feat: enhance invites UI/UX with calendar picker, cancel feedback, and number input</p>
+                <p className="ml-15 mt-2 text-[11px] flex justify-start items-center gap-0.5 text-stone-400/90"><DotIcon className="size-3" />fix: allow Board settings dialog to close when clicking outside</p>
+                <p className="ml-15 mt-2 text-[11px] flex justify-start items-center gap-0.5 text-stone-400/90"><DotIcon className="size-3" />fix: improve tablet responsiveness for card grid</p>
+              
+                <p className="ml-10 mt-3 text-[13px] flex justify-start items-center gap-2 text-stone-400"><GitMergeIcon className="size-3" />antiwork/flexile</p>
+                <p className="ml-15 mt-2 text-[11px] flex justify-start items-center gap-0.5 text-stone-400/90"><DotIcon className="size-3" />fix: heading overflow issue by adjusting responsive font sizes</p>
+
+                <p className="ml-10 mt-3 text-[13px] flex justify-start items-center gap-2 text-stone-400"><GitMergeIcon className="size-3" />spectrum-ui</p>
+                <p className="ml-15 mt-2 text-[11px] flex justify-start items-center gap-0.5 text-stone-400/90"><DotIcon className="size-3" />fix: optimize animated card demo</p>
+              
+                <p className="ml-5 mt-5 text-sm flex justify-start items-center gap-2 text-stone-300"><MilestoneIcon className="size-4"/>Freelance Work</p>
+                <p className="ml-10 mt-3 text-[13px] flex justify-start items-center gap-2 text-stone-400"><ActivityIcon className="size-3" />Clinic Website</p>
+                <p className="ml-15 mt-2 text-[11px] flex justify-start items-center gap-0.5 text-stone-400/90"><DotIcon className="size-3 self-start" />Designed and developed a responsive single-page website for a Jaipur clinic, featuring service sections, doctor profile, treatment details, and integrated appointment booking.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+
       
     </div>
   );
