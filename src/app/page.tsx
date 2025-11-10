@@ -88,6 +88,102 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="h-[5vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+          <div className="h-full w-[20%] border-r border-r-neutral-800">
+            
+          </div>
+        </div>
+      </div>
+
+      <div className="h-[95vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+          <div className="h-full w-[20%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
+
+          </div>
+          <div className="h-full w-[80%] flex flex-col items-start justify-center text-stone-400">
+            <p className="ml-5 tracking-tight text-[22px] text-white">Projects</p>
+            <p className="ml-5 text-xs">End-to-end stuff I’ve built.</p>
+            <div className="flex flex-col justify-start items-start ml-5 mt-10">
+              <div className="flex items-center justify-start gap-5 max-h-[20vh] w-full">
+                <img src="/wiora.png" alt="" className="max-h-[80%]" />
+                <div className="flex flex-col justify-start gap-0">
+                  <p className="text-[17px] tracking-tight text-stone-300">Wiora</p>
+                  <div className="flex flex-wrap justify-start items-center gap-2 text-[9px] mt-2">
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Next.js</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">React</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">TypeScript</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">TailwindCSS</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">shadcn/ui</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Stream Video/Chat SDK</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">OpenAI Realtime</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">tRPC</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Inngest</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Neon (Postgres)</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Drizzle</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">BetterAuth</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Polar</p>
+                  </div>
+                  <p className="text-[11px] mt-2 text-stone-400">A next-gen video meeting platform where custom AI agents join live calls, actively contribute, generate transcripts and summaries, and provide post-call insights. Built real-time voice workflows using Stream and OpenAI, with dashboards, authentication, and billing.</p>
+                </div>
+              </div>
+
+              <div className="flex items-center justify-start gap-5 max-h-[20vh] w-full mt-10">
+                <img src="/whisp.png" alt="" className="max-h-[80%]" />
+                <div className="flex flex-col justify-start gap-0">
+                  <p className="text-[17px] tracking-tight text-stone-300">Whisp</p>
+                  <div className="flex flex-wrap justify-start items-center gap-2 text-[9px] mt-2">
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">React</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">TypeScript</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">TailwindCSS</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Vite</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Socket.IO</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">WebRTC</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Node.js</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Express</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">MongoDB</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Google OAuth2</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Cloudinary</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Gemini</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Framer Motion</p>
+                  </div>
+                  <p className="text-[11px] mt-2 text-stone-400">A full-featured messaging platform with a built-in friend system, one-to-one chat, real-time audio/video calls, media sharing, typing indicators, read receipts, and much more. Built using Socket.IO and WebRTC at its core.</p>
+                </div>
+              </div>
+
+              <div className="flex items-center justify-start gap-5 max-h-[20vh] w-full mt-10">
+                <img src="/wordloom.png" alt="" className="max-h-[80%]" />
+                <div className="flex flex-col justify-start gap-0">
+                  <p className="text-[17px] tracking-tight text-stone-300">Wordloom</p>
+                  <div className="flex flex-wrap justify-start items-center gap-2 text-[9px] mt-2">
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">React</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">TailwindCSS</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Node.js</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Express</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Prisma</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">PostgreSQL</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">TinyMCE</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">JWT</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Google OAuth2</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Cloudinary</p>
+                    <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Gemini</p>
+                  </div>
+                  <p className="text-[11px] mt-2 text-stone-400">A complete blogging platform with reader and admin interfaces, post/comment management, category filtering, and a rich text editor with AI-assisted tone optimization.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="h-[5vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+          <div className="h-full w-[20%] border-r border-r-neutral-800">
+            
+          </div>
+        </div>
+      </div>
+
       
       
     </div>
