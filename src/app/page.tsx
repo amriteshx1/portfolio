@@ -6,8 +6,8 @@ import { Binary, MoonIcon, UserSearchIcon, DownloadIcon, MilestoneIcon, DotIcon,
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen w-full items-center justify-start bg-zinc-50 font-sans dark:bg-black overflow-y-auto">
-      <div className="h-[7vh] w-full flex justify-center items-center border border-neutral-800 mt-[1vh]">
-        <div className="h-full w-[60%] flex items-center justify-end gap-5 border-x border-x-neutral-800 dotted-pattern">
+      <div className="lg:h-[7vh] h-[5vh] w-full flex justify-center items-center border border-neutral-800 lg:mt-[1vh] mt-[0.5vh]">
+        <div className="h-full lg:w-[60%] w-full flex items-center justify-end gap-5 border-x border-x-neutral-800 dotted-pattern">
           <Binary className="mr-auto ml-4 size-9" />
           <p className="text-[15px] text-stone-400">Home</p>
           <p className="text-[15px] text-stone-400">Projects</p>
@@ -17,13 +17,13 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="h-[30vh] w-full flex justify-center items-center border-b border-b-neutral-800">
-        <div className="h-full w-[60%] flex items-center justify-center border-x border-x-neutral-800 neutral-pattern">
+      <div className="lg:h-[30vh] h-[15vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full lg:w-[60%] w-full flex items-center justify-center border-x border-x-neutral-800 neutral-pattern">
         </div>
       </div>
 
-      <div className="h-[25vh] w-full flex justify-center items-center border-b border-b-neutral-800">
-        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+      <div className="lg:h-[25vh] h-[20vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full lg:w-[60%] w-full flex items-center justify-start border-x border-x-neutral-800">
           <div className="h-full w-[20%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
             {/* <img src="/me.png" alt="" className="max-h-full rounded-full bg-black border border-neutral-800" /> */}
           </div>
@@ -40,16 +40,16 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="h-[5vh] w-full flex justify-center items-center border-b border-b-neutral-800">
-        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+      <div className="lg:h-[5vh] h-[3vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full lg:w-[60%] w-full flex items-center justify-start border-x border-x-neutral-800">
           <div className="h-full w-[20%] border-r border-r-neutral-800">
             
           </div>
         </div>
       </div>
 
-      <div className="h-[23vh] w-full flex justify-center items-center border-b border-b-neutral-800">
-        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+      <div className="lg:h-[23vh] h-[18vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full lg:w-[60%] w-full flex items-center justify-start border-x border-x-neutral-800">
           <div className="h-full w-[20%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
 
           </div>
@@ -75,8 +75,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="h-[35vh] w-full flex justify-center items-center border-b border-b-neutral-800">
-        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+      <div className="lg:h-[35vh] h-[25vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full lg:w-[60%] w-full flex items-center justify-start border-x border-x-neutral-800">
           <div className="h-full w-[20%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
 
           </div>
@@ -88,16 +88,16 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="h-[5vh] w-full flex justify-center items-center border-b border-b-neutral-800">
-        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+      <div className="lg:h-[5vh] h-[3vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full lg:w-[60%] w-full flex items-center justify-start border-x border-x-neutral-800">
           <div className="h-full w-[20%] border-r border-r-neutral-800">
             
           </div>
         </div>
       </div>
 
-      <div className="h-[95vh] w-full flex justify-center items-center border-b border-b-neutral-800">
-        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+      <div className="lg:h-[95vh] h-[55vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full lg:w-[60%] w-full flex items-center justify-start border-x border-x-neutral-800">
           <div className="h-full w-[20%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
 
           </div>
@@ -105,7 +105,7 @@ export default function Home() {
             <p className="ml-5 tracking-tight text-[22px] text-white">Projects</p>
             <p className="ml-5 text-xs">End-to-end stuff I’ve built.</p>
             <div className="flex flex-col justify-start items-start ml-5 mt-10">
-              <div className="flex items-center justify-start gap-5 max-h-[20vh] w-full">
+              <div className="flex items-center justify-start gap-5 lg:max-h-[20vh] max-h-[10vh] w-full">
                 <img src="/wiora.png" alt="" className="max-h-[80%]" />
                 <div className="flex flex-col justify-start gap-0">
                   <div className="w-full flex items-center justify-between">
@@ -135,7 +135,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="flex items-center justify-start gap-5 max-h-[20vh] w-full mt-10">
+              <div className="flex items-center justify-start gap-5 lg:max-h-[20vh] max-h-[10vh] w-full mt-10">
                 <img src="/whisp.png" alt="" className="max-h-[80%]" />
                 <div className="flex flex-col justify-start gap-0">
                   <div className="w-full flex items-center justify-between">
@@ -165,7 +165,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="flex items-center justify-start gap-5 max-h-[20vh] w-full mt-10">
+              <div className="flex items-center justify-start gap-5 lg:max-h-[20vh] max-h-[10vh] w-full mt-10">
                 <img src="/wordloom.png" alt="" className="max-h-[80%]" />
                 <div className="flex flex-col justify-start gap-0">
                   <div className="w-full flex items-center justify-between">
@@ -197,16 +197,16 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="h-[5vh] w-full flex justify-center items-center border-b border-b-neutral-800">
-        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+      <div className="lg:h-[5vh] h-[3vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full lg:w-[60%] w-full flex items-center justify-start border-x border-x-neutral-800">
           <div className="h-full w-[20%] border-r border-r-neutral-800">
             
           </div>
         </div>
       </div>
 
-      <div className="h-[65vh] w-full flex justify-center items-center border-b border-b-neutral-800">
-        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+      <div className="lg:h-[65vh] h-[45vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full lg:w-[60%] w-full flex items-center justify-start border-x border-x-neutral-800">
           <div className="h-full w-[20%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
 
           </div>
@@ -237,8 +237,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="h-[25vh] w-full flex justify-center items-center border-b border-b-neutral-800">
-        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+      <div className="lg:h-[25vh] h-[16vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full lg:w-[60%] w-full flex items-center justify-start border-x border-x-neutral-800">
           <div className="h-full w-[20%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
 
           </div>
@@ -259,16 +259,16 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="h-[5vh] w-full flex justify-center items-center border-b border-b-neutral-800">
-        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+      <div className="lg:h-[5vh] h-[3vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full lg:w-[60%] w-full flex items-center justify-start border-x border-x-neutral-800">
           <div className="h-full w-[20%] border-r border-r-neutral-800">
             
           </div>
         </div>
       </div>
 
-       <div className="h-[25vh] w-full flex justify-center items-center border-b border-b-neutral-800 mb-[1vh]">
-        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+       <div className="lg:h-[25vh] h-[16vh] w-full flex justify-center items-center border-b border-b-neutral-800 lg:mb-[1vh] mb-[0.5vh]">
+        <div className="h-full lg:w-[60%] w-full flex items-center justify-start border-x border-x-neutral-800">
           <div className="h-full w-[20%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
 
           </div>
