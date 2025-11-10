@@ -1,7 +1,7 @@
 "use client";
 
 import GithubSection from "@/components/gitGrapth";
-import { Binary, MoonIcon, UserSearchIcon, DownloadIcon, MilestoneIcon, DotIcon, GitMergeIcon, ActivityIcon, Twitter, MailIcon, LinkedinIcon, GithubIcon } from "lucide-react";
+import { Binary, MoonIcon, UserSearchIcon, DownloadIcon, MilestoneIcon, DotIcon, GitMergeIcon, ActivityIcon, Twitter, MailIcon, LinkedinIcon, GithubIcon, ExternalLinkIcon, PlayIcon, FolderCodeIcon } from "lucide-react";
 
 export default function Home() {
   return (
@@ -108,7 +108,14 @@ export default function Home() {
               <div className="flex items-center justify-start gap-5 max-h-[20vh] w-full">
                 <img src="/wiora.png" alt="" className="max-h-[80%]" />
                 <div className="flex flex-col justify-start gap-0">
-                  <p className="text-[17px] tracking-tight text-stone-300">Wiora</p>
+                  <div className="w-full flex items-center justify-between">
+                    <p className="text-[17px] tracking-tight text-stone-300">Wiora</p>
+                    <div className="flex items-center justify-end mr-5 gap-2">
+                      <ExternalLinkIcon className="size-[18px] border-r border-r-neutral-800 pr-1" />
+                      <PlayIcon className="size-[18px] border-r border-r-neutral-800 pr-1" />
+                      <FolderCodeIcon className="size-3.5"/>
+                    </div>
+                  </div>
                   <div className="flex flex-wrap justify-start items-center gap-2 text-[9px] mt-2">
                     <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">Next.js</p>
                     <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">React</p>
@@ -131,7 +138,14 @@ export default function Home() {
               <div className="flex items-center justify-start gap-5 max-h-[20vh] w-full mt-10">
                 <img src="/whisp.png" alt="" className="max-h-[80%]" />
                 <div className="flex flex-col justify-start gap-0">
-                  <p className="text-[17px] tracking-tight text-stone-300">Whisp</p>
+                  <div className="w-full flex items-center justify-between">
+                    <p className="text-[17px] tracking-tight text-stone-300">Whisp</p>
+                    <div className="flex items-center justify-end mr-5 gap-2">
+                      <ExternalLinkIcon className="size-[18px] border-r border-r-neutral-800 pr-1" />
+                      <PlayIcon className="size-[18px] border-r border-r-neutral-800 pr-1" />
+                      <FolderCodeIcon className="size-3.5"/>
+                    </div>
+                  </div>
                   <div className="flex flex-wrap justify-start items-center gap-2 text-[9px] mt-2">
                     <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">React</p>
                     <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">TypeScript</p>
@@ -154,7 +168,14 @@ export default function Home() {
               <div className="flex items-center justify-start gap-5 max-h-[20vh] w-full mt-10">
                 <img src="/wordloom.png" alt="" className="max-h-[80%]" />
                 <div className="flex flex-col justify-start gap-0">
-                  <p className="text-[17px] tracking-tight text-stone-300">Wordloom</p>
+                  <div className="w-full flex items-center justify-between">
+                    <p className="text-[17px] tracking-tight text-stone-300">Wordloom</p>
+                    <div className="flex items-center justify-end mr-5 gap-2">
+                      <ExternalLinkIcon className="size-[18px] border-r border-r-neutral-800 pr-1" />
+                      <PlayIcon className="size-[18px] border-r border-r-neutral-800 pr-1" />
+                      <FolderCodeIcon className="size-3.5"/>
+                    </div>
+                  </div>
                   <div className="flex flex-wrap justify-start items-center gap-2 text-[9px] mt-2">
                     <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">React</p>
                     <p className="bg-neutral-900 text-stone-400 px-1.5 py-[0.2] rounded-sm">TailwindCSS</p>
