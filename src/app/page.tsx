@@ -216,6 +216,28 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="h-[25vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+          <div className="h-full w-[20%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
+
+          </div>
+          <div className="h-full w-[80%] flex flex-col items-start justify-center text-stone-400">
+            <p className="ml-5 tracking-tight text-[22px] text-white">Education</p>
+            <p className="ml-5 text-xs">Where I’m studying and what I’m pursuing.</p>
+            <div className="flex w-full items-start justify-start">
+              <div className="w-[70%] flex flex-col items-start justify-start">
+                <p className="ml-5 mt-5 text-[15px] text-stone-300">Bachelor of Technology - Computer Science & Engineering</p>
+                <p className="ml-5 mt-1 text-[13px] text-stone-400">IILM University, Greater Noida</p>
+              </div>
+              <div className="w-[30%] flex flex-col justify-start items-end">
+                <p className="mr-5 mt-5 text-sm text-stone-300">2023-27</p>
+                <p className="mr-5 mt-1 text-xs text-stone-400">CGPA: 9.02</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
      
 
       
