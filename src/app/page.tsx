@@ -238,7 +238,32 @@ export default function Home() {
         </div>
       </div>
 
-     
+      <div className="h-[5vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+          <div className="h-full w-[20%] border-r border-r-neutral-800">
+            
+          </div>
+        </div>
+      </div>
+
+       <div className="h-[25vh] w-full flex justify-center items-center border-b border-b-neutral-800 mb-[1vh]">
+        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+          <div className="h-full w-[20%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
+
+          </div>
+          <div className="h-full w-[80%] flex flex-col items-start justify-center text-stone-400">
+            <p className="ml-5 tracking-tight text-[22px] text-white">Connect</p>
+            <p className="ml-5 text-xs">Let’s get in touch.</p>
+            <div className="flex justify-start items-center w-full mt-5">
+              <p className="ml-5 text-[13px] flex items-center justify-center gap-1.5 text-stone-300 py-1.5 px-3 bg-neutral-900 rounded-sm"><Twitter className="size-3.5 p-0" />Twitter</p>
+              <p className="ml-5 text-[13px] flex items-center justify-center gap-1.5 text-stone-300 py-1.5 px-3 bg-neutral-900 rounded-sm"><MailIcon className="size-3.5 p-0" />Mail</p>
+              <p className="ml-5 text-[13px] flex items-center justify-center gap-1.5 text-stone-300 py-1.5 px-3 bg-neutral-900 rounded-sm"><LinkedinIcon className="size-3.5 p-0" />LinkedIn</p>
+              <p className="ml-5 text-[13px] flex items-center justify-center gap-1.5 text-stone-300 py-1.5 px-3 bg-neutral-900 rounded-sm"><GithubIcon className="size-3.5 p-0" />Github</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
 
       
     </div>
