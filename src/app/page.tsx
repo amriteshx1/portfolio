@@ -75,8 +75,20 @@ export default function Home() {
         </div>
       </div>
 
-      
+      <div className="h-[35vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+        <div className="h-full w-[60%] flex items-center justify-start border-x border-x-neutral-800">
+          <div className="h-full w-[20%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
 
+          </div>
+          <div className="h-full w-[80%] flex flex-col items-start justify-center text-stone-400">
+            <p className="ml-5 tracking-tight text-[22px] text-white">Github</p>
+            <p className="ml-5 text-xs">My contributions and activity.</p>
+            <GithubSection />
+          </div>
+        </div>
+      </div>
+
+      
       
     </div>
   );
