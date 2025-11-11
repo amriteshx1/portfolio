@@ -1,6 +1,7 @@
 "use client";
 
 import GithubSection from "@/components/gitGrapth";
+import toast from "react-hot-toast";
 import { Binary, MoonIcon, UserSearchIcon, DownloadIcon, MilestoneIcon, DotIcon, GitMergeIcon, ActivityIcon, Twitter, MailIcon, LinkedinIcon, GithubIcon, ExternalLinkIcon, PlayIcon, FolderCodeIcon, SunIcon } from "lucide-react";
 
 export default function Home() {
@@ -25,7 +26,9 @@ export default function Home() {
             }
            }}
            className="md:text-[15px] text-[11.5px] text-stone-400 hover:text-stone-300 cursor-pointer">Projects</p>
-          <p className="md:text-[15px] text-[11.5px] text-stone-400 hover:text-stone-300 cursor-pointer md:block hidden">Blogs</p>
+          <p 
+           onClick={() => toast("Work in progress...")}
+           className="md:text-[15px] text-[11.5px] text-stone-400 hover:text-stone-300 cursor-pointer md:block hidden">Blogs</p>
           <p 
            onClick={() => {
              const el = document.getElementById("connect");
@@ -34,7 +37,7 @@ export default function Home() {
              }
            }}
            className="md:text-[15px] text-[11.5px] text-stone-400 hover:text-stone-300 cursor-pointer">Connect</p>
-          <SunIcon className="md:mr-5 mr-3 size-4 text-stone-400 hover:text-stone-300 cursor-pointer"/>
+          <SunIcon onClick={() => toast("Work in progress...")} className="md:mr-5 mr-3 size-4 text-stone-400 hover:text-stone-300 cursor-pointer"/>
         </div>
       </div>
 
