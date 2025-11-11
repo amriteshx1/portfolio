@@ -9,15 +9,36 @@ export default function Home() {
       <div className="lg:h-[7vh] md:h-[5vh] h-[6vh] w-full flex justify-center items-center border border-neutral-800 lg:mt-[1vh] mt-[0.5vh]">
         <div className="h-full lg:w-[60%] w-full flex items-center justify-end md:gap-5 gap-2 border-x border-x-neutral-800">
           <Binary className="mr-auto md:ml-4 ml-2 md:size-9 size-8" />
-          <p className="md:text-[15px] text-[11.5px] text-stone-400">Home</p>
-          <p className="md:text-[15px] text-[11.5px] text-stone-400">Projects</p>
-          <p className="md:text-[15px] text-[11.5px] text-stone-400 md:block hidden">Blogs</p>
-          <p className="md:text-[15px] text-[11.5px] text-stone-400">Connect</p>
-          <SunIcon className="md:mr-5 mr-3 size-4 text-stone-400"/>
+          <p 
+           onClick={() => {
+             const el = document.getElementById("home");
+             if (el) {
+               el.scrollIntoView({ behavior: "smooth", block: "start" });
+             }
+           }}
+           className="md:text-[15px] text-[11.5px] text-stone-400 hover:text-stone-300 cursor-pointer">Home</p>
+          <p 
+           onClick={() => {
+            const el = document.getElementById("projects");
+            if (el) {
+              el.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+           }}
+           className="md:text-[15px] text-[11.5px] text-stone-400 hover:text-stone-300 cursor-pointer">Projects</p>
+          <p className="md:text-[15px] text-[11.5px] text-stone-400 hover:text-stone-300 cursor-pointer md:block hidden">Blogs</p>
+          <p 
+           onClick={() => {
+             const el = document.getElementById("connect");
+             if (el) {
+               el.scrollIntoView({ behavior: "smooth", block: "start" });
+             }
+           }}
+           className="md:text-[15px] text-[11.5px] text-stone-400 hover:text-stone-300 cursor-pointer">Connect</p>
+          <SunIcon className="md:mr-5 mr-3 size-4 text-stone-400 hover:text-stone-300 cursor-pointer"/>
         </div>
       </div>
 
-      <div className="lg:h-[30vh] h-[15vh] w-full flex justify-center items-center border-b border-b-neutral-800">
+      <div id="home" className="lg:h-[30vh] h-[15vh] w-full flex justify-center items-center border-b border-b-neutral-800">
         <div className="h-full lg:w-[60%] w-full flex items-center justify-center border-x border-x-neutral-800 neutral-pattern">
         </div>
       </div>
@@ -96,7 +117,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full flex justify-center items-stretch border-b border-b-neutral-800">
+      <div id="projects" className="w-full flex justify-center items-stretch border-b border-b-neutral-800">
         <div className="lg:w-[60%] w-full flex items-stretch justify-start border-x border-x-neutral-800">
           <div className="md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
 
@@ -270,7 +291,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full flex justify-center items-stretch border-b border-b-neutral-800">
+      <div id="connect" className="w-full flex justify-center items-stretch border-b border-b-neutral-800">
         <div className="lg:w-[60%] w-full flex items-stretch justify-start border-x border-x-neutral-800">
           <div className="md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
 
