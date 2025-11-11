@@ -28,10 +28,10 @@ export default function Home() {
             {/* <img src="/me.png" alt="" className="max-h-full rounded-full bg-black border border-neutral-800" /> */}
           </div>
 
-          <div className="md:w-[80%] w-[90%] flex flex-col justify-center items-start text-stone-400 py-8">
-            <p className="md:ml-5 ml-2 tracking-tight md:text-[15px] text-sm">Hey, I'm</p>
-            <p className="md:text-3xl text-[24px] font-medium tracking-tight text-white md:ml-5 ml-2">Amritesh!</p>
-            <p className="md:ml-5 ml-3 md:text-sm text-xs md:mt-3 mt-1">&lt; Full-Stack Engineer, Systems Thinker, In-Code Designer, and a Student of the Craft. /&gt;</p>
+          <div className="md:w-[80%] w-[90%] flex flex-col justify-center items-start text-stone-400 py-8 mr-1.5">
+            <p className="md:ml-5 ml-3 tracking-tight md:text-[15px] text-sm">Hey, I'm</p>
+            <p className="md:text-3xl text-[24px] font-medium tracking-tight text-white md:ml-5 ml-3">Amritesh!</p>
+            <p className="md:ml-5 ml-3 md:text-sm text-xs md:mt-3 mt-1">&lt;Full-Stack Engineer, Systems Thinker, In-Code Designer, and a Student of the Craft. /&gt;</p>
             <div className="w-full flex items-center justify-start md:gap-5 gap-2 md:mt-4 mt-4">
               <button className="flex items-center gap-1 tracking-tight md:text-xs text-[10px] bg-neutral-900 md:ml-5 ml-3 md:py-1 py-0.5 px-2 rounded-md text-stone-400"><UserSearchIcon className="md:size-3 size-[11px]" />Available for new opportunities</button>
               <button className="flex items-center gap-1 tracking-tight md:text-xs text-[10px] bg-neutral-900 md:py-1 py-0.5 px-2 rounded-md text-stone-400"><DownloadIcon className="md:size-3 size-[11px]" />Download resume</button>
@@ -56,7 +56,7 @@ export default function Home() {
           <div className="md:w-[80%] w-[90%] flex flex-col items-start justify-center text-stone-400 py-7">
             <p className="md:ml-5 ml-3 tracking-tight md:text-[22px] text-xl text-white">Skills</p>
             <p className="md:ml-5 ml-3 md:text-xs text-[11px]">Tools & Technologies I work with.</p>
-            <div className="md:ml-5 ml-3 flex flex-wrap items-center justify-start mt-5 gap-4">
+            <div className="md:ml-5 ml-3 flex flex-wrap items-center justify-start mt-5 gap-4 mr-1.5">
               <img src="/nextjs.png" alt="" className="md:size-9 size-7" />
               <img src="/react.png" alt="" className="md:size-9 size-7" />
               <img src="/ts.png" alt="" className="md:size-9 size-7" />
@@ -105,13 +105,13 @@ export default function Home() {
             <p className="md:ml-5 ml-3 tracking-tight md:text-[22px] text-xl text-white">Projects</p>
             <p className="md:ml-5 ml-3 md:text-xs text-[11px]">End-to-end stuff I’ve built.</p>
 
-            <div className="flex flex-col justify-start items-start md:ml-5 ml-3 md:mt-6 mt-8">
+            <div className="flex flex-col justify-start items-start md:ml-5 ml-3 md:mt-6 mt-8 mr-2">
               <div className="flex md:flex-row flex-col md:items-center items-start justify-start gap-5 w-full">
                 <img src="/wiora.png" alt="" className="lg:max-h-[16vh] max-h-[8vh]" />
                 <div className="flex flex-col justify-start gap-0">
                   <div className="w-full flex items-center justify-between">
                     <p className="md:text-[17px] text-[15px] tracking-tight text-stone-300">Wiora</p>
-                    <div className="flex items-center justify-end md:mr-5 mr-3 gap-2">
+                    <div className="flex items-center justify-end md:mr-3 mr-1.5 gap-2">
                       <ExternalLinkIcon className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1" />
                       <PlayIcon className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1" />
                       <FolderCodeIcon className="md:size-3.5 size-[13px]"/>
@@ -141,7 +141,7 @@ export default function Home() {
                 <div className="flex flex-col justify-start gap-0">
                   <div className="w-full flex items-center justify-between">
                     <p className="md:text-[17px] text-[15px] tracking-tight text-stone-300">Whisp</p>
-                    <div className="flex items-center justify-end md:mr-5 mr-3 gap-2">
+                    <div className="flex items-center justify-end md:mr-3 mr-1.5 gap-2">
                       <ExternalLinkIcon className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1" />
                       <PlayIcon className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1" />
                       <FolderCodeIcon className="md:size-3.5 size-[13px]"/>
@@ -171,7 +171,7 @@ export default function Home() {
                 <div className="flex flex-col justify-start gap-0">
                   <div className="w-full flex items-center justify-between">
                     <p className="md:text-[17px] text-[15px] tracking-tight text-stone-300">Wordloom</p>
-                    <div className="flex items-center justify-end md:mr-5 mr-3 gap-2">
+                    <div className="flex items-center justify-end md:mr-3 mr-1.5 gap-2">
                       <ExternalLinkIcon className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1" />
                       <PlayIcon className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1" />
                       <FolderCodeIcon className="md:size-3.5 size-[13px]"/>
@@ -214,7 +214,7 @@ export default function Home() {
           <div className="md:w-[80%] w-[90%] flex flex-col items-start justify-center text-stone-400 py-7">
             <p className="md:ml-5 ml-3 tracking-tight md:text-[22px] text-xl text-white">Experience</p>
             <p className="md:ml-5 ml-3 md:text-xs text-[11px]">Work I’ve done outside personal projects.</p>
-            <div className="flex flex-col justify-start items-start w-full mt-5">
+            <div className="flex flex-col justify-start items-start w-full mt-5 mr-1.5">
               <div className="flex flex-col justify-start items-start">
                 <p className="md:ml-5 ml-3 md:text-sm text-[13px] flex justify-start items-center gap-2 text-stone-300"><MilestoneIcon className="md:size-4 size-3.5"/>OSS Contributions</p>
                 <p className="md:ml-10 ml-6 mt-2 md:text-[13px] text-xs flex justify-start items-center gap-2 text-stone-400"><GitMergeIcon className="md:size-3 size-[11px]" />antiwork/gumboard</p>
