@@ -22,13 +22,13 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="lg:h-[25vh] md:h-[20vh] h-[25vh] w-full flex justify-center items-center border-b border-b-neutral-800">
-        <div className="h-full lg:w-[60%] w-full flex items-center justify-start border-x border-x-neutral-800">
-          <div className="h-full md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
+      <div className="w-full flex justify-center items-stretch border-b border-b-neutral-800">
+        <div className="lg:w-[60%] w-full flex items-stretch justify-start border-x border-x-neutral-800">
+          <div className="md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
             {/* <img src="/me.png" alt="" className="max-h-full rounded-full bg-black border border-neutral-800" /> */}
           </div>
 
-          <div className="h-full md:w-[80%] w-[90%] flex flex-col justify-center items-start text-stone-400">
+          <div className="md:w-[80%] w-[90%] flex flex-col justify-center items-start text-stone-400 py-8">
             <p className="md:ml-5 ml-2 tracking-tight md:text-[15px] text-sm">Hey, I'm</p>
             <p className="md:text-3xl text-[24px] font-medium tracking-tight text-white md:ml-5 ml-2">Amritesh!</p>
             <p className="md:ml-5 ml-3 md:text-sm text-xs md:mt-3 mt-1">&lt; Full-Stack Engineer, Systems Thinker, In-Code Designer, and a Student of the Craft. /&gt;</p>
@@ -48,12 +48,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="lg:h-[23vh] md:h-[18vh] h-[25vh] w-full flex justify-center items-center border-b border-b-neutral-800">
-        <div className="h-full lg:w-[60%] w-full flex items-center justify-start border-x border-x-neutral-800">
-          <div className="h-full md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
+      <div className="w-full flex justify-center items-stretch border-b border-b-neutral-800">
+        <div className="lg:w-[60%] w-full flex items-stretch justify-start border-x border-x-neutral-800">
+          <div className="md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
 
           </div>
-          <div className="h-full md:w-[80%] w-[90%] flex flex-col items-start justify-center text-stone-400">
+          <div className="md:w-[80%] w-[90%] flex flex-col items-start justify-center text-stone-400 py-7">
             <p className="md:ml-5 ml-3 tracking-tight md:text-[22px] text-xl text-white">Skills</p>
             <p className="md:ml-5 ml-3 md:text-xs text-[11px]">Tools & Technologies I work with.</p>
             <div className="md:ml-5 ml-3 flex flex-wrap items-center justify-start mt-5 gap-4">
@@ -75,12 +75,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="lg:h-[35vh] md:h-[25vh] h-[32vh] w-full flex justify-center items-center border-b border-b-neutral-800">
-        <div className="h-full lg:w-[60%] w-full flex items-center justify-start border-x border-x-neutral-800">
-          <div className="h-full md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
+      <div className="w-full flex justify-center items-stretch border-b border-b-neutral-800">
+        <div className="lg:w-[60%] w-full flex items-stretch justify-start border-x border-x-neutral-800">
+          <div className="md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
 
           </div>
-          <div className="h-full md:w-[80%] w-[90%] flex flex-col items-start justify-center text-stone-400">
+          <div className="md:w-[80%] w-[90%] flex flex-col items-start justify-center text-stone-400 py-7">
             <p className="md:ml-5 ml-3 tracking-tight md:text-[22px] text-xl text-white">Github</p>
             <p className="md:ml-5 ml-3 md:text-xs text-[11px]">My contributions and activity.</p>
             <GithubSection />
@@ -96,15 +96,16 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="lg:h-[95vh] md:h-[55vh] h-[115vh] w-full flex justify-center items-center border-b border-b-neutral-800">
-        <div className="h-full lg:w-[60%] w-full flex items-center justify-start border-x border-x-neutral-800">
-          <div className="h-full md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
+      <div className="w-full flex justify-center items-stretch border-b border-b-neutral-800">
+        <div className="lg:w-[60%] w-full flex items-stretch justify-start border-x border-x-neutral-800">
+          <div className="md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
 
           </div>
-          <div className="h-full md:w-[80%] w-[90%] flex flex-col items-start justify-center text-stone-400">
+          <div className="md:w-[80%] w-[90%] flex flex-col items-start justify-center text-stone-400 py-7">
             <p className="md:ml-5 ml-3 tracking-tight md:text-[22px] text-xl text-white">Projects</p>
             <p className="md:ml-5 ml-3 md:text-xs text-[11px]">End-to-end stuff I’ve built.</p>
-            <div className="flex flex-col justify-start items-start md:ml-5 ml-3 md:mt-10 mt-14">
+
+            <div className="flex flex-col justify-start items-start md:ml-5 ml-3 md:mt-6 mt-8">
               <div className="flex md:flex-row flex-col md:items-center items-start justify-start gap-5 w-full">
                 <img src="/wiora.png" alt="" className="lg:max-h-[16vh] max-h-[8vh]" />
                 <div className="flex flex-col justify-start gap-0">
@@ -135,7 +136,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="flex md:flex-row flex-col md:items-center items-start justify-start gap-5 w-full md:mt-10 mt-12">
+              <div className="flex md:flex-row flex-col md:items-center items-start justify-start gap-5 w-full mt-10">
                 <img src="/whisp.png" alt="" className="lg:max-h-[16vh] max-h-[8vh]" />
                 <div className="flex flex-col justify-start gap-0">
                   <div className="w-full flex items-center justify-between">
@@ -165,7 +166,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="flex md:flex-row flex-col md:items-center items-start justify-start gap-5 w-full md:mt-10 mt-12">
+              <div className="flex md:flex-row flex-col md:items-center items-start justify-start gap-5 w-full mt-10">
                 <img src="/wordloom.png" alt="" className="lg:max-h-[16vh] max-h-[8vh]" />
                 <div className="flex flex-col justify-start gap-0">
                   <div className="w-full flex items-center justify-between">
@@ -205,12 +206,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="lg:h-[65vh] md:h-[45vh] h-[60vh] w-full flex justify-center items-center border-b border-b-neutral-800">
-        <div className="h-full lg:w-[60%] w-full flex items-center justify-start border-x border-x-neutral-800">
-          <div className="h-full md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
+      <div className="w-full flex justify-center items-stretch border-b border-b-neutral-800">
+        <div className="lg:w-[60%] w-full flex items-stretch justify-start border-x border-x-neutral-800">
+          <div className="md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
 
           </div>
-          <div className="h-full md:w-[80%] w-[90%] flex flex-col items-start justify-center text-stone-400">
+          <div className="md:w-[80%] w-[90%] flex flex-col items-start justify-center text-stone-400 py-7">
             <p className="md:ml-5 ml-3 tracking-tight md:text-[22px] text-xl text-white">Experience</p>
             <p className="md:ml-5 ml-3 md:text-xs text-[11px]">Work I’ve done outside personal projects.</p>
             <div className="flex flex-col justify-start items-start w-full mt-5">
@@ -237,12 +238,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="lg:h-[25vh] md:h-[16vh] h-[25vh] w-full flex justify-center items-center border-b border-b-neutral-800">
-        <div className="h-full lg:w-[60%] w-full flex items-center justify-start border-x border-x-neutral-800">
-          <div className="h-full md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
+      <div className="w-full flex justify-center items-stretch border-b border-b-neutral-800">
+        <div className="lg:w-[60%] w-full flex items-stretch justify-start border-x border-x-neutral-800">
+          <div className="md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
 
           </div>
-          <div className="h-full md:w-[80%] w-[90%] flex flex-col items-start justify-center text-stone-400">
+          <div className="md:w-[80%] w-[90%] flex flex-col items-start justify-center text-stone-400 py-7">
             <p className="md:ml-5 ml-3 tracking-tight md:text-[22px] text-xl text-white">Education</p>
             <p className="md:ml-5 ml-3 md:text-xs text-[11px]">Where I’m studying and what I’m pursuing.</p>
             <div className="flex w-full items-start justify-start">
@@ -267,12 +268,12 @@ export default function Home() {
         </div>
       </div>
 
-       <div className="lg:h-[25vh] md:h-[16vh] h-[20vh] w-full flex justify-center items-center border-b border-b-neutral-800 lg:mb-[1vh] mb-[0.5vh]">
-        <div className="h-full lg:w-[60%] w-full flex items-center justify-start border-x border-x-neutral-800">
-          <div className="h-full md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
+       <div className="w-full flex justify-center items-stretch border-b border-b-neutral-800 lg:mb-[1vh] mb-[0.5vh]">
+        <div className="lg:w-[60%] w-full flex items-stretch justify-start border-x border-x-neutral-800">
+          <div className="md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
 
           </div>
-          <div className="h-full md:w-[80%] w-[90%] flex flex-col items-start justify-center text-stone-400">
+          <div className="md:w-[80%] w-[90%] flex flex-col items-start justify-center text-stone-400 py-7">
             <p className="md:ml-5 ml-3 tracking-tight md:text-[22px] text-xl text-white">Connect</p>
             <p className="md:ml-5 ml-3 md:text-xs text-[11px]">Let’s get in touch.</p>
             <div className="flex justify-start items-center w-full mt-5">
@@ -286,7 +287,6 @@ export default function Home() {
         </div>
       </div>
 
-      
     </div>
   );
 }

@@ -7,7 +7,7 @@ export default function GithubSection() {
       "#262626", // level 1
       "#2e2e2e", // level 2
       "#3a3a3a", // level 3
-      "#404040", // level 4 (highest intensity)
+      "#404040", // level 4 
     ],
   };
 
