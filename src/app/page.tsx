@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen w-full items-center justify-start bg-zinc-50 font-sans dark:bg-black overflow-y-auto">
       <div className="lg:h-[7vh] md:h-[5vh] h-[6vh] w-full flex justify-center items-center border border-neutral-800 lg:mt-[1vh] mt-[0.5vh]">
-        <div className="h-full lg:w-[60%] w-full flex items-center justify-end md:gap-5 gap-2 border-x border-x-neutral-800 dotted-pattern">
+        <div className="h-full lg:w-[60%] w-full flex items-center justify-end md:gap-5 gap-2 border-x border-x-neutral-800">
           <Binary className="mr-auto md:ml-4 ml-2 md:size-9 size-8" />
           <p className="md:text-[15px] text-[11.5px] text-stone-400">Home</p>
           <p className="md:text-[15px] text-[11.5px] text-stone-400">Projects</p>
