@@ -194,6 +194,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+            <p className="md:ml-5 ml-3 md:text-xs text-[11px] mt-5">and more on <span className="text-stone-300">github.</span></p>
           </div>
         </div>
       </div>
@@ -268,7 +270,7 @@ export default function Home() {
         </div>
       </div>
 
-       <div className="w-full flex justify-center items-stretch border-b border-b-neutral-800 lg:mb-[1vh] mb-[0.5vh]">
+      <div className="w-full flex justify-center items-stretch border-b border-b-neutral-800">
         <div className="lg:w-[60%] w-full flex items-stretch justify-start border-x border-x-neutral-800">
           <div className="md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
 
@@ -283,6 +285,17 @@ export default function Home() {
               <p className="md:ml-5 ml-3 md:text-[13px] text-[11px] flex items-center justify-center md:gap-1.5 gap-1 text-stone-300 md:py-1.5 py-1 md:px-3 px-2 bg-neutral-900 rounded-sm"><GithubIcon className="md:size-3.5 size-3 p-0" />Github</p>
 
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full flex justify-center items-stretch border-b border-b-neutral-800 lg:mb-[1vh] mb-[0.5vh]">
+        <div className="lg:w-[60%] w-full flex items-stretch justify-start border-x border-x-neutral-800">
+          <div className="md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
+
+          </div>
+          <div className="md:w-[80%] w-[90%] flex flex-col items-start justify-center text-stone-400 py-4">
+            <p className="md:ml-5 ml-3 md:text-[11px] text-[10px]">© 2025 - Amritesh. All rights reserved.</p>
           </div>
         </div>
       </div>
