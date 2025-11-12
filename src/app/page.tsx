@@ -57,8 +57,15 @@ export default function Home() {
             <p className="md:text-3xl text-[24px] font-medium tracking-tight text-white md:ml-5 ml-3">Amritesh!</p>
             <p className="md:ml-5 ml-3 md:text-sm text-xs md:mt-3 mt-1">&lt;Full-Stack Engineer, Systems Thinker, In-Code Designer, and a Student of the Craft. /&gt;</p>
             <div className="w-full flex items-center justify-start md:gap-5 gap-2 md:mt-4 mt-4">
-              <button className="flex items-center gap-1 tracking-tight md:text-xs text-[10px] bg-neutral-900 md:ml-5 ml-3 md:py-1 py-0.5 px-2 rounded-md text-stone-400"><UserSearchIcon className="md:size-3 size-[11px]" />Available for new opportunities</button>
-              <button className="flex items-center gap-1 tracking-tight md:text-xs text-[10px] bg-neutral-900 md:py-1 py-0.5 px-2 rounded-md text-stone-400"><DownloadIcon className="md:size-3 size-[11px]" />Download resume</button>
+              <button 
+               onClick={() => {
+                const el = document.getElementById("connect");
+                if (el) {
+                  el.scrollIntoView({ behavior: "smooth", block: "start" });
+                }
+               }}
+               className="flex items-center gap-1 tracking-tight md:text-xs text-[10px] bg-neutral-900 md:ml-5 ml-3 md:py-1 py-0.5 px-2 rounded-md text-stone-400 hover:text-stone-300 cursor-pointer"><UserSearchIcon className="md:size-3 size-[11px]" />Available for new opportunities</button>
+              <button className="flex items-center gap-1 tracking-tight md:text-xs text-[10px] bg-neutral-900 md:py-1 py-0.5 px-2 rounded-md text-stone-400 hover:text-stone-300 cursor-pointer"><DownloadIcon className="md:size-3 size-[11px]" />Download resume</button>
             </div>
           </div>
         </div>
@@ -136,9 +143,15 @@ export default function Home() {
                   <div className="w-full flex items-center justify-between">
                     <p className="md:text-[17px] text-[15px] tracking-tight text-stone-300">Wiora</p>
                     <div className="flex items-center justify-end md:mr-3 mr-1.5 gap-2">
-                      <ExternalLinkIcon className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1" />
-                      <PlayIcon className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1" />
-                      <FolderCodeIcon className="md:size-3.5 size-[13px]"/>
+                      <ExternalLinkIcon 
+                       onClick={() => window.open("https://wiora.vercel.app/", "_blank", "noopener,noreferrer")}
+                       className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1 hover:text-stone-300 cursor-pointer" />
+                      <PlayIcon 
+                       onClick={() => window.open("https://drive.google.com/file/d/1yWhW3qSsxC0G-Fv1v410PvPS9BCUj3Yl/view?usp=sharing", "_blank", "noopener,noreferrer")}
+                       className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1 hover:text-stone-300 cursor-pointer" />
+                      <FolderCodeIcon 
+                       onClick={() => window.open("https://github.com/amriteshx1/wiora", "_blank", "noopener,noreferrer")}
+                       className="md:size-3.5 size-[13px] hover:text-stone-300 cursor-pointer"/>
                     </div>
                   </div>
                   <div className="flex flex-wrap justify-start items-center gap-2 md:text-[9px] text-[8px] mt-2">
@@ -166,9 +179,15 @@ export default function Home() {
                   <div className="w-full flex items-center justify-between">
                     <p className="md:text-[17px] text-[15px] tracking-tight text-stone-300">Whisp</p>
                     <div className="flex items-center justify-end md:mr-3 mr-1.5 gap-2">
-                      <ExternalLinkIcon className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1" />
-                      <PlayIcon className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1" />
-                      <FolderCodeIcon className="md:size-3.5 size-[13px]"/>
+                      <ExternalLinkIcon 
+                       onClick={() => window.open("https://whisp-blue.vercel.app/", "_blank", "noopener,noreferrer")}
+                       className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1 hover:text-stone-300 cursor-pointer" />
+                      <PlayIcon 
+                       onClick={() => window.open("https://drive.google.com/file/d/1dd-OGme4xtUxZzBdAc7iMnx7wkRXqa0d/view?usp=sharing", "_blank", "noopener,noreferrer")}
+                       className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1 hover:text-stone-300 cursor-pointer" />
+                      <FolderCodeIcon 
+                       onClick={() => window.open("https://github.com/amriteshx1/whisp", "_blank", "noopener,noreferrer")}
+                       className="md:size-3.5 size-[13px] hover:text-stone-300 cursor-pointer"/>
                     </div>
                   </div>
                   <div className="flex flex-wrap justify-start items-center gap-2 md:text-[9px] text-[8px] mt-2">
@@ -196,9 +215,15 @@ export default function Home() {
                   <div className="w-full flex items-center justify-between">
                     <p className="md:text-[17px] text-[15px] tracking-tight text-stone-300">Wordloom</p>
                     <div className="flex items-center justify-end md:mr-3 mr-1.5 gap-2">
-                      <ExternalLinkIcon className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1" />
-                      <PlayIcon className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1" />
-                      <FolderCodeIcon className="md:size-3.5 size-[13px]"/>
+                      <ExternalLinkIcon 
+                       onClick={() => window.open("https://word-loom-u37v.vercel.app/", "_blank", "noopener,noreferrer")}
+                       className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1 hover:text-stone-300 cursor-pointer" />
+                      <PlayIcon 
+                       onClick={() => window.open("https://drive.google.com/file/d/1n7IPrISpsGsgYU1Ic8FQG3L0trfz6oIo/view?usp=sharing", "_blank", "noopener,noreferrer")}
+                       className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1 hover:text-stone-300 cursor-pointer" />
+                      <FolderCodeIcon 
+                       onClick={() => window.open("https://github.com/amriteshx1/word-loom", "_blank", "noopener,noreferrer")}
+                       className="md:size-3.5 size-[13px] hover:text-stone-300 cursor-pointer"/>
                     </div>
                   </div>
                   <div className="flex flex-wrap justify-start items-center gap-2 md:text-[9px] text-[8px] mt-2">
@@ -219,7 +244,7 @@ export default function Home() {
               </div>
             </div>
 
-            <p className="md:ml-5 ml-3 md:text-xs text-[11px] mt-5">and more on <span className="text-stone-300">github.</span></p>
+            <p className="md:ml-5 ml-3 md:text-xs text-[11px] mt-5">and more on <span onClick={() => window.open("https://github.com/amriteshx1", "_blank", "noopener,noreferrer")} className="text-stone-300 hover:text-stone-200 cursor-pointer">github.</span></p>
           </div>
         </div>
       </div>
@@ -244,15 +269,25 @@ export default function Home() {
               <div className="flex flex-col justify-start items-start">
                 <p className="md:ml-5 ml-3 md:text-sm text-[13px] flex justify-start items-center gap-2 text-stone-300"><MilestoneIcon className="md:size-4 size-3.5"/>OSS Contributions</p>
                 <p className="md:ml-10 ml-6 mt-2 md:text-[13px] text-xs flex justify-start items-center gap-2 text-stone-400"><GitMergeIcon className="md:size-3 size-[11px]" />antiwork/gumboard</p>
-                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-400/90"><DotIcon className="size-3" />feat: enhance invites UI/UX with calendar picker, cancel feedback, and number input</p>
-                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-400/90"><DotIcon className="size-3" />fix: allow Board settings dialog to close when clicking outside</p>
-                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-400/90"><DotIcon className="size-3" />fix: improve tablet responsiveness for card grid</p>
+                <p 
+                 onClick={() => window.open("https://github.com/antiwork/gumboard/pull/707", "_blank", "noopener,noreferrer")}
+                 className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-400/90 hover:text-stone-300/70 cursor-pointer"><DotIcon className="size-3" />feat: enhance invites UI/UX with calendar picker, cancel feedback, and number input</p>
+                <p 
+                 onClick={() => window.open("https://github.com/antiwork/gumboard/pull/695", "_blank", "noopener,noreferrer")}
+                 className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-400/90 hover:text-stone-300/70 cursor-pointer"><DotIcon className="size-3" />fix: allow Board settings dialog to close when clicking outside</p>
+                <p 
+                 onClick={() => window.open("https://github.com/antiwork/gumboard/pull/687", "_blank", "noopener,noreferrer")}
+                 className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-400/90 hover:text-stone-300/70 cursor-pointer"><DotIcon className="size-3" />fix: improve tablet responsiveness for card grid</p>
               
                 <p className="md:ml-10 ml-6 mt-3 md:text-[13px] text-xs flex justify-start items-center gap-2 text-stone-400"><GitMergeIcon className="md:size-3 size-[11px]" />antiwork/flexile</p>
-                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-400/90"><DotIcon className="size-3" />fix: heading overflow issue by adjusting responsive font sizes</p>
+                <p 
+                 onClick={() => window.open("https://github.com/antiwork/flexile/pull/1044", "_blank", "noopener,noreferrer")}
+                 className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-400/90 hover:text-stone-300/70 cursor-pointer"><DotIcon className="size-3" />fix: heading overflow issue by adjusting responsive font sizes</p>
 
                 <p className="md:ml-10 ml-6 mt-3 md:text-[13px] text-xs flex justify-start items-center gap-2 text-stone-400"><GitMergeIcon className="md:size-3 size-[11px]" />spectrum-ui</p>
-                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-400/90"><DotIcon className="size-3" />fix: optimize animated card demo</p>
+                <p 
+                 onClick={() => window.open("https://github.com/arihantcodes/spectrum-ui/pull/100", "_blank", "noopener,noreferrer")}
+                 className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-400/90 hover:text-stone-300/70 cursor-pointer"><DotIcon className="size-3" />fix: optimize animated card demo to improve interaction smoothness</p>
               
                 <p className="md:ml-5 ml-3 mt-5 md:text-sm text-[13px] flex justify-start items-center gap-2 text-stone-300"><MilestoneIcon className="md:size-4 size-3.5"/>Freelance Work</p>
                 <p className="md:ml-10 ml-6 mt-3 md:text-[13px] text-xs flex justify-start items-center gap-2 text-stone-400"><ActivityIcon className="md:size-3 size-[11px]" />Clinic Website</p>
@@ -303,10 +338,18 @@ export default function Home() {
             <p className="md:ml-5 ml-3 tracking-tight md:text-[22px] text-xl text-white">Connect</p>
             <p className="md:ml-5 ml-3 md:text-xs text-[11px]">Let’s get in touch.</p>
             <div className="flex justify-start items-center w-full mt-5">
-              <p className="md:ml-5 ml-3 md:text-[13px] text-[11px] flex items-center justify-center md:gap-1.5 gap-1 text-stone-300 md:py-1.5 py-1 md:px-3 px-2 bg-neutral-900 rounded-sm"><Twitter className="md:size-3.5 size-3 p-0" />Twitter</p>
-              <p className="md:ml-5 ml-3 md:text-[13px] text-[11px] flex items-center justify-center md:gap-1.5 gap-1 text-stone-300 md:py-1.5 py-1 md:px-3 px-2 bg-neutral-900 rounded-sm"><MailIcon className="md:size-3.5 size-3 p-0" />Mail</p>
-              <p className="md:ml-5 ml-3 md:text-[13px] text-[11px] flex items-center justify-center md:gap-1.5 gap-1 text-stone-300 md:py-1.5 py-1 md:px-3 px-2 bg-neutral-900 rounded-sm"><LinkedinIcon className="md:size-3.5 size-3 p-0" />LinkedIn</p>
-              <p className="md:ml-5 ml-3 md:text-[13px] text-[11px] flex items-center justify-center md:gap-1.5 gap-1 text-stone-300 md:py-1.5 py-1 md:px-3 px-2 bg-neutral-900 rounded-sm"><GithubIcon className="md:size-3.5 size-3 p-0" />Github</p>
+              <p 
+               onClick={() => window.open("https://x.com/anontwtx1", "_blank", "noopener,noreferrer")}
+               className="md:ml-5 ml-3 md:text-[13px] text-[11px] flex items-center justify-center md:gap-1.5 gap-1 text-stone-300 hover:text-stone-200 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 bg-neutral-900 rounded-sm"><Twitter className="md:size-3.5 size-3 p-0" />Twitter</p>
+              <p 
+               onClick={() => window.location.href = "mailto:amriteshx18@gmail.com"}
+               className="md:ml-5 ml-3 md:text-[13px] text-[11px] flex items-center justify-center md:gap-1.5 gap-1 text-stone-300 hover:text-stone-200 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 bg-neutral-900 rounded-sm"><MailIcon className="md:size-3.5 size-3 p-0" />Mail</p>
+              <p 
+               onClick={() => window.open("https://www.linkedin.com/in/amritesh-gautam/", "_blank", "noopener,noreferrer")}
+               className="md:ml-5 ml-3 md:text-[13px] text-[11px] flex items-center justify-center md:gap-1.5 gap-1 text-stone-300 hover:text-stone-200 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 bg-neutral-900 rounded-sm"><LinkedinIcon className="md:size-3.5 size-3 p-0" />LinkedIn</p>
+              <p 
+               onClick={() => window.open("https://github.com/amriteshx1", "_blank", "noopener,noreferrer")}
+               className="md:ml-5 ml-3 md:text-[13px] text-[11px] flex items-center justify-center md:gap-1.5 gap-1 text-stone-300 hover:text-stone-200 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 bg-neutral-900 rounded-sm"><GithubIcon className="md:size-3.5 size-3 p-0" />Github</p>
 
             </div>
           </div>
