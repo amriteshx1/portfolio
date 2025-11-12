@@ -49,7 +49,7 @@ export default function Home() {
       <div className="w-full flex justify-center items-stretch border-b border-b-neutral-800">
         <div className="lg:w-[60%] w-full flex items-stretch justify-start border-x border-x-neutral-800">
           <div className="md:w-[20%] w-[10%] flex items-center justify-center border-r border-r-neutral-800 dotted-pattern">
-            {/* <img src="/me.png" alt="" className="max-h-full rounded-full bg-black border border-neutral-800" /> */}
+            {/* <img src="/me.png" alt="Amritesh's ProfilePic" className="max-h-full rounded-full bg-black border border-neutral-800" /> */}
           </div>
 
           <div className="md:w-[80%] w-[90%] flex flex-col justify-center items-start text-stone-400 py-8 mr-1.5">
@@ -88,19 +88,19 @@ export default function Home() {
             <p className="md:ml-5 ml-3 tracking-tight md:text-[22px] text-xl text-white">Skills</p>
             <p className="md:ml-5 ml-3 md:text-xs text-[11px]">Tools & Technologies I work with.</p>
             <div className="md:ml-5 ml-3 flex flex-wrap items-center justify-start mt-5 gap-4 mr-1.5">
-              <img src="/nextjs.png" alt="" className="md:size-9 size-7" />
-              <img src="/react.png" alt="" className="md:size-9 size-7" />
-              <img src="/ts.png" alt="" className="md:size-9 size-7" />
-              <img src="/tailwind.png" alt="" className="md:size-9 size-7" />
-              <img src="/postgre.png" alt="" className="md:size-9 size-7" />
-              <img src="/mongo.png" alt="" className="md:size-9 size-7" />
-              <img src="/docker.png" alt="" className="md:size-9 size-7" />
-              <img src="/webrtc.svg" alt="" className="md:size-8 size-[26px]" />
-              <img src="/socket.svg" alt="" className="md:size-8 size-[26px]" />
-              <img src="/framer.png" alt="" className="md:size-8 size-[26px]" />
-              <img src="/shadcn.svg" alt="" className="md:size-8 size-[26px]" />
-              <img src="/node.png" alt="" className="md:size-10 size-[30px]" />
-              <img src="/express.png" alt="" className="md:size-9 size-7" />
+              <img src="/nextjs.png" alt="NextJS" className="md:size-9 size-7" />
+              <img src="/react.png" alt="React" className="md:size-9 size-7" />
+              <img src="/ts.png" alt="TypeScript" className="md:size-9 size-7" />
+              <img src="/tailwind.png" alt="TailwindCSS" className="md:size-9 size-7" />
+              <img src="/postgre.png" alt="PostgreSQL" className="md:size-9 size-7" />
+              <img src="/mongo.png" alt="MongoDB" className="md:size-9 size-7" />
+              <img src="/docker.png" alt="Docker" className="md:size-9 size-7" />
+              <img src="/webrtc.svg" alt="Webrtc" className="md:size-8 size-[26px]" />
+              <img src="/socket.svg" alt="Socket.IO" className="md:size-8 size-[26px]" />
+              <img src="/framer.png" alt="Framer" className="md:size-8 size-[26px]" />
+              <img src="/shadcn.svg" alt="ShadCN" className="md:size-8 size-[26px]" />
+              <img src="/node.png" alt="NodeJS" className="md:size-10 size-[30px]" />
+              <img src="/express.png" alt="Express" className="md:size-9 size-7" />
             </div>
           </div>
         </div>
@@ -138,7 +138,7 @@ export default function Home() {
 
             <div className="flex flex-col justify-start items-start md:ml-5 ml-3 md:mt-6 mt-8 mr-2">
               <div className="flex md:flex-row flex-col md:items-center items-start justify-start gap-5 w-full">
-                <img src="/wiora.png" alt="" className="lg:max-h-[16vh] max-h-[8vh]" />
+                <img src="/wiora.png" alt="Wiora" className="lg:max-h-[16vh] max-h-[8vh]" />
                 <div className="flex flex-col justify-start gap-0">
                   <div className="w-full flex items-center justify-between">
                     <p className="md:text-[17px] text-[15px] tracking-tight text-stone-300">Wiora</p>
@@ -174,7 +174,7 @@ export default function Home() {
               </div>
 
               <div className="flex md:flex-row flex-col md:items-center items-start justify-start gap-5 w-full mt-10">
-                <img src="/whisp.png" alt="" className="lg:max-h-[16vh] max-h-[8vh]" />
+                <img src="/whisp.png" alt="Whisp" className="lg:max-h-[16vh] max-h-[8vh]" />
                 <div className="flex flex-col justify-start gap-0">
                   <div className="w-full flex items-center justify-between">
                     <p className="md:text-[17px] text-[15px] tracking-tight text-stone-300">Whisp</p>
@@ -210,7 +210,7 @@ export default function Home() {
               </div>
 
               <div className="flex md:flex-row flex-col md:items-center items-start justify-start gap-5 w-full mt-10">
-                <img src="/wordloom.png" alt="" className="lg:max-h-[16vh] max-h-[8vh]" />
+                <img src="/wordloom.png" alt="Wordloom" className="lg:max-h-[16vh] max-h-[8vh]" />
                 <div className="flex flex-col justify-start gap-0">
                   <div className="w-full flex items-center justify-between">
                     <p className="md:text-[17px] text-[15px] tracking-tight text-stone-300">Wordloom</p>
