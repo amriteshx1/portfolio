@@ -65,7 +65,9 @@ export default function Home() {
                 }
                }}
                className="flex items-center gap-1 tracking-tight md:text-xs text-[10px] bg-neutral-900 md:ml-5 ml-3 md:py-1 py-0.5 px-2 rounded-md text-stone-400 hover:text-stone-300 cursor-pointer"><UserSearchIcon className="md:size-3 size-[11px]" />Available for new opportunities</button>
-              <button className="flex items-center gap-1 tracking-tight md:text-xs text-[10px] bg-neutral-900 md:py-1 py-0.5 px-2 rounded-md text-stone-400 hover:text-stone-300 cursor-pointer"><DownloadIcon className="md:size-3 size-[11px]" />Download resume</button>
+              <button 
+               onClick={() => window.open("https://drive.google.com/file/d/1lDc9waOlsmESzeCqp9_u2IXw19EDz4pE/view?usp=sharing", "_blank", "noopener,noreferrer")}
+               className="flex items-center gap-1 tracking-tight md:text-xs text-[10px] bg-neutral-900 md:py-1 py-0.5 px-2 rounded-md text-stone-400 hover:text-stone-300 cursor-pointer"><DownloadIcon className="md:size-3 size-[11px]" />Download resume</button>
             </div>
           </div>
         </div>
