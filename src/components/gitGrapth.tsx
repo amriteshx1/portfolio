@@ -12,7 +12,7 @@ export default function GithubSection() {
   };
 
   return (
-      <div className="w-full max-w-full overflow-x-auto overflow-y-hidden ml-5 mt-5 lg:pr-0 md:pr-10 pr-5">
+      <div className="w-[calc(100%-1.25rem)] max-w-full overflow-x-auto overflow-y-hidden ml-5 mt-5 pr-5">
         <GitHubCalendar
           username="amriteshx1"
           blockSize={10}

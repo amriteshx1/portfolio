@@ -2,13 +2,13 @@
 
 import GithubSection from "@/components/gitGrapth";
 import toast from "react-hot-toast";
-import { Binary, MoonIcon, UserSearchIcon, DownloadIcon, MilestoneIcon, DotIcon, GitMergeIcon, ActivityIcon, Twitter, MailIcon, LinkedinIcon, GithubIcon, ExternalLinkIcon, PlayIcon, FolderCodeIcon, SunIcon } from "lucide-react";
+import { Binary, MoonIcon, UserSearchIcon, DownloadIcon, MilestoneIcon, DotIcon, GitMergeIcon, ActivityIcon, Twitter, MailIcon, LinkedinIcon, GithubIcon, ExternalLinkIcon, PlayIcon, FolderCodeIcon, SunIcon, EyeIcon } from "lucide-react";
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen w-full items-center justify-start bg-zinc-50 font-sans dark:bg-black overflow-y-auto">
       <div className="lg:h-[7vh] md:h-[5vh] h-[6vh] w-full flex justify-center items-center border border-neutral-800 lg:mt-[1vh] mt-[0.5vh]">
-        <div className="h-full lg:w-[60%] w-full flex items-center justify-end md:gap-5 gap-2 border-x border-x-neutral-800">
+        <div className="h-full lg:w-[60%] w-full flex items-center justify-end md:gap-5 gap-3 border-x border-x-neutral-800">
           <Binary className="mr-auto md:ml-4 ml-2 md:size-9 size-8" />
           <p 
            onClick={() => {
@@ -64,10 +64,10 @@ export default function Home() {
                   el.scrollIntoView({ behavior: "smooth", block: "start" });
                 }
                }}
-               className="flex items-center gap-1 tracking-tight md:text-xs text-[10px] bg-neutral-900 md:ml-5 ml-3 md:py-1 py-0.5 px-2 rounded-md text-stone-400 hover:text-stone-300 cursor-pointer"><UserSearchIcon className="md:size-3 size-[11px]" />Available for new opportunities</button>
+               className="flex items-center gap-1 tracking-tight md:text-xs text-[11px] bg-neutral-900 md:ml-5 ml-3 md:py-1 py-[3px] px-2 rounded-md text-stone-400 hover:text-stone-300 cursor-pointer"><UserSearchIcon className="size-3" />Available for new opportunities</button>
               <button 
                onClick={() => window.open("https://drive.google.com/file/d/1lDc9waOlsmESzeCqp9_u2IXw19EDz4pE/view?usp=sharing", "_blank", "noopener,noreferrer")}
-               className="flex items-center gap-1 tracking-tight md:text-xs text-[10px] bg-neutral-900 md:py-1 py-0.5 px-2 rounded-md text-stone-400 hover:text-stone-300 cursor-pointer"><DownloadIcon className="md:size-3 size-[11px]" />Download resume</button>
+               className="flex items-center gap-1 tracking-tight md:text-xs text-[11px] bg-neutral-900 md:py-1 py-[3px] px-2 rounded-md text-stone-400 hover:text-stone-300 cursor-pointer"><EyeIcon className="size-3" />View resume</button>
             </div>
           </div>
         </div>
@@ -342,16 +342,16 @@ export default function Home() {
             <div className="flex justify-start items-center w-full mt-5">
               <p 
                onClick={() => window.open("https://x.com/anontwtx1", "_blank", "noopener,noreferrer")}
-               className="md:ml-5 ml-3 md:text-[13px] text-[11px] flex items-center justify-center md:gap-1.5 gap-1 text-stone-300 hover:text-stone-200 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 bg-neutral-900 rounded-sm"><Twitter className="md:size-3.5 size-3 p-0" />Twitter</p>
+               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-300 hover:text-stone-200 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 bg-neutral-900 rounded-sm"><Twitter className="md:size-3.5 size-3 p-0" />Twitter</p>
               <p 
                onClick={() => window.location.href = "mailto:amriteshx18@gmail.com"}
-               className="md:ml-5 ml-3 md:text-[13px] text-[11px] flex items-center justify-center md:gap-1.5 gap-1 text-stone-300 hover:text-stone-200 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 bg-neutral-900 rounded-sm"><MailIcon className="md:size-3.5 size-3 p-0" />Mail</p>
+               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-300 hover:text-stone-200 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 bg-neutral-900 rounded-sm"><MailIcon className="md:size-3.5 size-3 p-0" />Mail</p>
               <p 
                onClick={() => window.open("https://www.linkedin.com/in/amritesh-gautam/", "_blank", "noopener,noreferrer")}
-               className="md:ml-5 ml-3 md:text-[13px] text-[11px] flex items-center justify-center md:gap-1.5 gap-1 text-stone-300 hover:text-stone-200 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 bg-neutral-900 rounded-sm"><LinkedinIcon className="md:size-3.5 size-3 p-0" />LinkedIn</p>
+               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-300 hover:text-stone-200 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 bg-neutral-900 rounded-sm"><LinkedinIcon className="md:size-3.5 size-3 p-0" />LinkedIn</p>
               <p 
                onClick={() => window.open("https://github.com/amriteshx1", "_blank", "noopener,noreferrer")}
-               className="md:ml-5 ml-3 md:text-[13px] text-[11px] flex items-center justify-center md:gap-1.5 gap-1 text-stone-300 hover:text-stone-200 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 bg-neutral-900 rounded-sm"><GithubIcon className="md:size-3.5 size-3 p-0" />Github</p>
+               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-300 hover:text-stone-200 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 bg-neutral-900 rounded-sm"><GithubIcon className="md:size-3.5 size-3 p-0" />Github</p>
 
             </div>
           </div>
