@@ -55,7 +55,7 @@ export default function Home() {
           <div className="md:w-[80%] w-[90%] flex flex-col justify-center items-start text-stone-400 py-8 mr-1.5">
             <p className="md:ml-5 ml-3 tracking-tight md:text-[15px] text-sm">Hey, I'm</p>
             <p className="md:text-3xl text-[24px] font-medium tracking-tight text-white md:ml-5 ml-3">Amritesh!</p>
-            <p className="md:ml-5 ml-3 md:text-sm text-xs md:mt-3 mt-1">&lt;Full-Stack Engineer, Systems Thinker, In-Code Designer, and a Student of the Craft. /&gt;</p>
+            <p className="md:ml-5 ml-3 md:text-sm text-xs md:mt-3 mt-1">&lt;Full-Stack Engineer, Systems Thinker, In-Code Designer, and a Perpetual Learner of the Craft. /&gt;</p>
             <div className="w-full flex items-center justify-start md:gap-5 gap-2 md:mt-4 mt-4">
               <button 
                onClick={() => {
