@@ -66,7 +66,7 @@ export default function Home() {
                }}
                className="flex items-center gap-1 tracking-tight md:text-xs text-[11px] bg-neutral-900 md:ml-5 ml-3 md:py-1 py-[3px] px-2 rounded-md text-stone-400 hover:text-stone-300 cursor-pointer"><UserSearchIcon className="size-3" />Available for new opportunities</button>
               <button 
-               onClick={() => window.open("https://drive.google.com/file/d/1lDc9waOlsmESzeCqp9_u2IXw19EDz4pE/view?usp=sharing", "_blank", "noopener,noreferrer")}
+               onClick={() => window.open("https://drive.google.com/file/d/1-yZvQrfB4_qLy0sodGyVHPiUiYtEQlVM/view?usp=sharing", "_blank", "noopener,noreferrer")}
                className="flex items-center gap-1 tracking-tight md:text-xs text-[11px] bg-neutral-900 md:py-1 py-[3px] px-2 rounded-md text-stone-400 hover:text-stone-300 cursor-pointer"><EyeIcon className="size-3" />View resume</button>
             </div>
           </div>
@@ -149,7 +149,7 @@ export default function Home() {
                        onClick={() => window.open("https://wiora.vercel.app/", "_blank", "noopener,noreferrer")}
                        className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1 hover:text-stone-300 cursor-pointer" />
                       <PlayIcon 
-                       onClick={() => window.open("https://drive.google.com/file/d/1-yZvQrfB4_qLy0sodGyVHPiUiYtEQlVM/view?usp=sharing", "_blank", "noopener,noreferrer")}
+                       onClick={() => window.open("https://drive.google.com/file/d/1yWhW3qSsxC0G-Fv1v410PvPS9BCUj3Yl/view?usp=sharing", "_blank", "noopener,noreferrer")}
                        className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1 hover:text-stone-300 cursor-pointer" />
                       <FolderCodeIcon 
                        onClick={() => window.open("https://github.com/amriteshx1/wiora", "_blank", "noopener,noreferrer")}
