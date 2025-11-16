@@ -149,7 +149,7 @@ export default function Home() {
                        onClick={() => window.open("https://wiora.vercel.app/", "_blank", "noopener,noreferrer")}
                        className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1 hover:text-stone-300 cursor-pointer" />
                       <PlayIcon 
-                       onClick={() => window.open("https://drive.google.com/file/d/1yWhW3qSsxC0G-Fv1v410PvPS9BCUj3Yl/view?usp=sharing", "_blank", "noopener,noreferrer")}
+                       onClick={() => window.open("https://drive.google.com/file/d/1-yZvQrfB4_qLy0sodGyVHPiUiYtEQlVM/view?usp=sharing", "_blank", "noopener,noreferrer")}
                        className="md:size-[18px] size-[17px] border-r border-r-neutral-800 pr-1 hover:text-stone-300 cursor-pointer" />
                       <FolderCodeIcon 
                        onClick={() => window.open("https://github.com/amriteshx1/wiora", "_blank", "noopener,noreferrer")}
