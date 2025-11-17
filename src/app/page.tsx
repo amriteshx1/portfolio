@@ -66,7 +66,7 @@ export default function Home() {
                }}
                className="flex items-center gap-1 tracking-tight md:text-xs text-[11px] bg-neutral-900 md:ml-5 ml-3 md:py-1 py-[3px] px-2 rounded-md text-stone-400 hover:text-stone-300 cursor-pointer"><UserSearchIcon className="size-3" />Available for new opportunities</button>
               <button 
-               onClick={() => window.open("https://drive.google.com/file/d/1vot_DRYN13RK2xx1N2Wfq01sPYITWlwm/view?usp=sharing", "_blank", "noopener,noreferrer")}
+               onClick={() => window.open("https://drive.google.com/file/d/1OwvEeLfWK1wKp9Eb4-adO05xVejB3p3v/view?usp=sharing", "_blank", "noopener,noreferrer")}
                className="flex items-center gap-1 tracking-tight md:text-xs text-[11px] bg-neutral-900 md:py-1 py-[3px] px-2 rounded-md text-stone-400 hover:text-stone-300 cursor-pointer"><EyeIcon className="size-3" />View resume</button>
             </div>
           </div>
