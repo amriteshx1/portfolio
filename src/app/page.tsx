@@ -41,7 +41,7 @@ export default function Home() {
                el.scrollIntoView({ behavior: "smooth", block: "start" });
              }
            }}
-           className="md:text-[15px] text-[11.5px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer">Home</p>
+           className="md:text-[15px] text-[11.5px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer">Home</p>
           <p 
            onClick={() => {
             const el = document.getElementById("projects");
@@ -49,10 +49,10 @@ export default function Home() {
               el.scrollIntoView({ behavior: "smooth", block: "start" });
             }
            }}
-           className="md:text-[15px] text-[11.5px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer">Projects</p>
+           className="md:text-[15px] text-[11.5px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer">Projects</p>
           <p 
            onClick={() => toast("Work in progress...")}
-           className="md:text-[15px] text-[11.5px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer md:block hidden">Blogs</p>
+           className="md:text-[15px] text-[11.5px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer md:block hidden">Blogs</p>
           <p 
            onClick={() => {
              const el = document.getElementById("connect");
@@ -60,7 +60,7 @@ export default function Home() {
                el.scrollIntoView({ behavior: "smooth", block: "start" });
              }
            }}
-           className="md:text-[15px] text-[11.5px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer">Connect</p>
+           className="md:text-[15px] text-[11.5px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer">Connect</p>
           {dark ? (
             <SunIcon
               onClick={toggleTheme}
@@ -69,7 +69,7 @@ export default function Home() {
           ) : (
             <MoonIcon
               onClick={toggleTheme}
-              className="md:mr-5 mr-3 size-4 cursor-pointer text-stone-800 hover:text-stone-700"
+              className="md:mr-5 mr-3 size-4 cursor-pointer text-stone-800 hover:text-stone-600"
             />
           )}
 
@@ -99,10 +99,10 @@ export default function Home() {
                   el.scrollIntoView({ behavior: "smooth", block: "start" });
                 }
                }}
-               className="flex items-center gap-1 tracking-tight md:text-xs text-[11px] bg-neutral-200 dark:bg-neutral-900 md:ml-5 ml-3 md:py-1 py-[3px] px-2 rounded-md text-stone-900 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-800 cursor-pointer"><UserSearchIcon className="size-3" />Available for new opportunities</button>
+               className="flex items-center gap-1 tracking-tight md:text-xs text-[11px] bg-neutral-200 dark:bg-neutral-900 md:ml-5 ml-3 md:py-1 py-[3px] px-2 rounded-md text-stone-900 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer"><UserSearchIcon className="size-3" />Available for new opportunities</button>
               <button 
                onClick={() => window.open("https://drive.google.com/file/d/1OwvEeLfWK1wKp9Eb4-adO05xVejB3p3v/view?usp=sharing", "_blank", "noopener,noreferrer")}
-               className="flex items-center gap-1 tracking-tight md:text-xs text-[11px] bg-neutral-200 dark:bg-neutral-900 md:py-1 py-[3px] px-2 rounded-md text-stone-900 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-800 cursor-pointer"><EyeIcon className="size-3" />View resume</button>
+               className="flex items-center gap-1 tracking-tight md:text-xs text-[11px] bg-neutral-200 dark:bg-neutral-900 md:py-1 py-[3px] px-2 rounded-md text-stone-900 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer"><EyeIcon className="size-3" />View resume</button>
             </div>
           </div>
         </div>
@@ -182,13 +182,13 @@ export default function Home() {
                     <div className="flex items-center justify-end md:mr-3 mr-1.5 gap-2">
                       <ExternalLinkIcon 
                        onClick={() => window.open("https://wiora.vercel.app/", "_blank", "noopener,noreferrer")}
-                       className="md:size-[18px] size-[17px] border-r border-r-neutral-300 dark:border-r-neutral-800 pr-1 hover:text-stone-700 dark:hover:text-stone-300 cursor-pointer" />
+                       className="md:size-[18px] size-[17px] border-r border-r-neutral-300 dark:border-r-neutral-800 pr-1 hover:text-stone-600 dark:hover:text-stone-300 cursor-pointer" />
                       <PlayIcon 
                        onClick={() => window.open("https://drive.google.com/file/d/1yWhW3qSsxC0G-Fv1v410PvPS9BCUj3Yl/view?usp=sharing", "_blank", "noopener,noreferrer")}
-                       className="md:size-[18px] size-[17px] border-r border-r-neutral-300 dark:border-r-neutral-800 pr-1 hover:text-stone-700 dark:hover:text-stone-300 cursor-pointer" />
+                       className="md:size-[18px] size-[17px] border-r border-r-neutral-300 dark:border-r-neutral-800 pr-1 hover:text-stone-600 dark:hover:text-stone-300 cursor-pointer" />
                       <FolderCodeIcon 
                        onClick={() => window.open("https://github.com/amriteshx1/wiora", "_blank", "noopener,noreferrer")}
-                       className="md:size-3.5 size-[13px] hover:text-stone-700 dark:hover:text-stone-300 cursor-pointer"/>
+                       className="md:size-3.5 size-[13px] hover:text-stone-600 dark:hover:text-stone-300 cursor-pointer"/>
                     </div>
                   </div>
                   <div className="flex flex-wrap justify-start items-center gap-2 md:text-[9px] text-[8px] mt-2">
@@ -218,13 +218,13 @@ export default function Home() {
                     <div className="flex items-center justify-end md:mr-3 mr-1.5 gap-2">
                       <ExternalLinkIcon 
                        onClick={() => window.open("https://whisp-blue.vercel.app/", "_blank", "noopener,noreferrer")}
-                       className="md:size-[18px] size-[17px] border-r border-r-neutral-300 dark:border-r-neutral-800 pr-1 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer" />
+                       className="md:size-[18px] size-[17px] border-r border-r-neutral-300 dark:border-r-neutral-800 pr-1 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer" />
                       <PlayIcon 
                        onClick={() => window.open("https://drive.google.com/file/d/1dd-OGme4xtUxZzBdAc7iMnx7wkRXqa0d/view?usp=sharing", "_blank", "noopener,noreferrer")}
-                       className="md:size-[18px] size-[17px] border-r border-r-neutral-300 dark:border-r-neutral-800 pr-1 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer" />
+                       className="md:size-[18px] size-[17px] border-r border-r-neutral-300 dark:border-r-neutral-800 pr-1 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer" />
                       <FolderCodeIcon 
                        onClick={() => window.open("https://github.com/amriteshx1/whisp", "_blank", "noopener,noreferrer")}
-                       className="md:size-3.5 size-[13px] hover:text-stone-700 dark:hover:text-stone-300 cursor-pointer"/>
+                       className="md:size-3.5 size-[13px] hover:text-stone-600 dark:hover:text-stone-300 cursor-pointer"/>
                     </div>
                   </div>
                   <div className="flex flex-wrap justify-start items-center gap-2 md:text-[9px] text-[8px] mt-2">
@@ -254,13 +254,13 @@ export default function Home() {
                     <div className="flex items-center justify-end md:mr-3 mr-1.5 gap-2">
                       <ExternalLinkIcon 
                        onClick={() => window.open("https://word-loom-u37v.vercel.app/", "_blank", "noopener,noreferrer")}
-                       className="md:size-[18px] size-[17px] border-r border-r-neutral-300 dark:border-r-neutral-800 pr-1 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer" />
+                       className="md:size-[18px] size-[17px] border-r border-r-neutral-300 dark:border-r-neutral-800 pr-1 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer" />
                       <PlayIcon 
                        onClick={() => window.open("https://drive.google.com/file/d/1n7IPrISpsGsgYU1Ic8FQG3L0trfz6oIo/view?usp=sharing", "_blank", "noopener,noreferrer")}
-                       className="md:size-[18px] size-[17px] border-r border-r-neutral-300 dark:border-r-neutral-800 pr-1 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer" />
+                       className="md:size-[18px] size-[17px] border-r border-r-neutral-300 dark:border-r-neutral-800 pr-1 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer" />
                       <FolderCodeIcon 
                        onClick={() => window.open("https://github.com/amriteshx1/word-loom", "_blank", "noopener,noreferrer")}
-                       className="md:size-3.5 size-[13px] hover:text-stone-700 dark:hover:text-stone-300 cursor-pointer"/>
+                       className="md:size-3.5 size-[13px] hover:text-stone-600 dark:hover:text-stone-300 cursor-pointer"/>
                     </div>
                   </div>
                   <div className="flex flex-wrap justify-start items-center gap-2 md:text-[9px] text-[8px] mt-2">
@@ -377,16 +377,16 @@ export default function Home() {
             <div className="flex justify-start items-center w-full mt-5">
               <p 
                onClick={() => window.open("https://x.com/anontwtx1", "_blank", "noopener,noreferrer")}
-               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-900 dark:text-stone-300 dark:hover:text-stone-200 hover:text-stone-800 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 dark:bg-neutral-900 bg-neutral-200 rounded-sm"><Twitter className="md:size-3.5 size-3 p-0" />Twitter</p>
+               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-900 dark:text-stone-300 dark:hover:text-stone-200 hover:text-stone-700 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 dark:bg-neutral-900 bg-neutral-200 rounded-sm"><Twitter className="md:size-3.5 size-3 p-0" />Twitter</p>
               <p 
                onClick={() => window.location.href = "mailto:amriteshx18@gmail.com"}
-               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-900 dark:text-stone-300 dark:hover:text-stone-200 hover:text-stone-800 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 dark:bg-neutral-900 bg-neutral-200 rounded-sm"><MailIcon className="md:size-3.5 size-3 p-0" />Mail</p>
+               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-900 dark:text-stone-300 dark:hover:text-stone-200 hover:text-stone-700 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 dark:bg-neutral-900 bg-neutral-200 rounded-sm"><MailIcon className="md:size-3.5 size-3 p-0" />Mail</p>
               <p 
                onClick={() => window.open("https://www.linkedin.com/in/amritesh-gautam/", "_blank", "noopener,noreferrer")}
-               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-900 dark:text-stone-300 dark:hover:text-stone-200 hover:text-stone-800 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 dark:bg-neutral-900 bg-neutral-200 rounded-sm"><LinkedinIcon className="md:size-3.5 size-3 p-0" />LinkedIn</p>
+               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-900 dark:text-stone-300 dark:hover:text-stone-200 hover:text-stone-700 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 dark:bg-neutral-900 bg-neutral-200 rounded-sm"><LinkedinIcon className="md:size-3.5 size-3 p-0" />LinkedIn</p>
               <p 
                onClick={() => window.open("https://github.com/amriteshx1", "_blank", "noopener,noreferrer")}
-               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-900 dark:text-stone-300 dark:hover:text-stone-200 hover:text-stone-800 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 dark:bg-neutral-900 bg-neutral-200 rounded-sm"><GithubIcon className="md:size-3.5 size-3 p-0" />Github</p>
+               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-900 dark:text-stone-300 dark:hover:text-stone-200 hover:text-stone-700 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 dark:bg-neutral-900 bg-neutral-200 rounded-sm"><GithubIcon className="md:size-3.5 size-3 p-0" />Github</p>
 
             </div>
           </div>
