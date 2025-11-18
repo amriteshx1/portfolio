@@ -58,25 +58,9 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 8px; 
-  height: 8px; 
-}
-
-::-webkit-scrollbar-track {
-  background: black;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #404040;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #525252;
+  width: 0px;
 }
 
 * {
-  scrollbar-width: thin;
-  scrollbar-color: #404040 black; 
+  scrollbar-width: none;
 }
