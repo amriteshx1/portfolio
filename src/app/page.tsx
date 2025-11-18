@@ -151,7 +151,7 @@ export default function Home() {
           <div className="md:w-[80%] w-[90%] flex flex-col items-start justify-center text-stone-800 dark:text-stone-400 py-7">
             <p className="md:ml-5 ml-3 tracking-tight md:text-[22px] text-xl text-black dark:text-white">Github</p>
             <p className="md:ml-5 ml-3 md:text-xs text-[11px]">My contributions and activity.</p>
-            <GithubSection />
+            <GithubSection isDark={dark} />
           </div>
         </div>
       </div>
