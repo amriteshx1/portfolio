@@ -206,7 +206,7 @@ export default function Home() {
                     <p className="bg-neutral-200 dark:bg-neutral-900 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">BetterAuth</p>
                     <p className="bg-neutral-200 dark:bg-neutral-900 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">Polar</p>
                   </div>
-                  <p className="md:text-[11px] text-[10px] mt-2 text-stone-700 dark:text-stone-400">A next-gen video meeting platform where custom AI agents join live calls, actively contribute, generate transcripts and summaries, and provide post-call insights. Built real-time voice workflows using Stream and OpenAI, with dashboards, authentication, and billing.</p>
+                  <p className="md:text-[11px] text-[10px] mt-2 text-stone-700 dark:text-stone-400">A next-gen video meeting platform where custom AI agents join live calls, handle context-aware user queries, generate transcripts and summaries, and produce post-call insights. Includes real-time voice workflows built with Stream + OpenAI, along with dashboards, authentication, and subscription billing.</p>
                 </div>
               </div>
 
@@ -242,7 +242,7 @@ export default function Home() {
                     <p className="dark:bg-neutral-900 bg-neutral-200 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Gemini</p>
                     <p className="dark:bg-neutral-900 bg-neutral-200 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Framer Motion</p>
                   </div>
-                  <p className="md:text-[11px] text-[10px] mt-2 text-stone-700 dark:text-stone-400">A full-featured messaging platform with a built-in friend system, one-to-one chat, real-time audio/video calls, media sharing, typing indicators, read receipts, and much more. Built using Socket.IO and WebRTC at its core.</p>
+                  <p className="md:text-[11px] text-[10px] mt-2 text-stone-700 dark:text-stone-400">A unified communication platform with friend management, 1:1 chat, real-time audio/video calling, media sharing, typing indicators, and read receipts. Built on a custom Socket.IO + WebRTC architecture.</p>
                 </div>
               </div>
 
@@ -276,7 +276,7 @@ export default function Home() {
                     <p className="dark:bg-neutral-900 bg-neutral-200 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">Cloudinary</p>
                     <p className="dark:bg-neutral-900 bg-neutral-200 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">Gemini</p>
                   </div>
-                  <p className="md:text-[11px] text-[10px] mt-2 text-stone-700 dark:text-stone-400">A complete blogging platform with reader and admin interfaces, post/comment management, category filtering, and a rich text editor with AI-assisted tone optimization.</p>
+                  <p className="md:text-[11px] text-[10px] mt-2 text-stone-700 dark:text-stone-400">An AI-driven blogging platform with Reader and Admin interfaces, post/comment management, category filtering, and a rich text editor enhanced with AI-assisted tone optimization and content suggestions.</p>
                 </div>
               </div>
             </div>
