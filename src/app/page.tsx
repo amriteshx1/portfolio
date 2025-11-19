@@ -101,7 +101,7 @@ export default function Home() {
                }}
                className="flex items-center gap-1 tracking-tight md:text-xs text-[11px] bg-neutral-200 dark:bg-neutral-900 md:ml-5 ml-3 md:py-1 py-[3px] px-2 rounded-md text-stone-900 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer"><UserSearchIcon className="size-3" />Available for new opportunities</button>
               <button 
-               onClick={() => window.open("https://drive.google.com/file/d/1OwvEeLfWK1wKp9Eb4-adO05xVejB3p3v/view?usp=sharing", "_blank", "noopener,noreferrer")}
+               onClick={() => window.open("https://drive.google.com/file/d/1buFhW16xxyfLCa8p7sdCnYx5ievMvo1u/view?usp=sharing", "_blank", "noopener,noreferrer")}
                className="flex items-center gap-1 tracking-tight md:text-xs text-[11px] bg-neutral-200 dark:bg-neutral-900 md:py-1 py-[3px] px-2 rounded-md text-stone-900 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer"><EyeIcon className="size-3" />View resume</button>
             </div>
           </div>
@@ -351,7 +351,7 @@ export default function Home() {
               </div>
               <div className="md:w-[30%] w-[20%] flex flex-col justify-start items-end">
                 <p className="md:mr-5 mr-3 mt-5 md:text-sm text-[11px] text-stone-900 dark:text-stone-300">2023-27</p>
-                <p className="md:mr-5 mr-3 mt-1 md:text-xs text-[10px] text-stone-700 dark:text-stone-400">CGPA: 9.02</p>
+                <p className="md:mr-5 mr-3 mt-1 md:text-xs text-[10px] text-stone-700 dark:text-stone-400">CGPA: 9.22</p>
               </div>
             </div>
           </div>
