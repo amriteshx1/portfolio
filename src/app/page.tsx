@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 import GithubSection from "@/components/gitGrapth";
 import toast from "react-hot-toast";
-import { Binary, MoonIcon, UserSearchIcon, DownloadIcon, MilestoneIcon, DotIcon, GitMergeIcon, ActivityIcon, Twitter, MailIcon, LinkedinIcon, GithubIcon, ExternalLinkIcon, PlayIcon, FolderCodeIcon, SunIcon, EyeIcon } from "lucide-react";
+import { Binary, MoonIcon, UserSearchIcon, DownloadIcon, MilestoneIcon, DotIcon, GitMergeIcon, ActivityIcon, Twitter, MailIcon, LinkedinIcon, GithubIcon, ExternalLinkIcon, PlayIcon, FolderCodeIcon, SunIcon, EyeIcon, CodesandboxIcon } from "lucide-react";
 
 export default function Home() {
   const [dark, setDark] = useState(false);
@@ -101,7 +101,7 @@ export default function Home() {
                }}
                className="flex items-center gap-1 tracking-tight md:text-xs text-[11px] bg-neutral-200 dark:bg-neutral-900 md:ml-5 ml-3 md:py-1 py-[3px] px-2 rounded-md text-stone-900 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer"><UserSearchIcon className="size-3" />Available for new opportunities</button>
               <button 
-               onClick={() => window.open("https://drive.google.com/file/d/196Qatj8y3-17Q491U_pjnkilfWCkrGDi/view?usp=sharing", "_blank", "noopener,noreferrer")}
+               onClick={() => window.open("https://drive.google.com/file/d/1juVtUS3pT-YhdO5olxxM42wf4s4PlzdI/view?usp=sharing", "_blank", "noopener,noreferrer")}
                className="flex items-center gap-1 tracking-tight md:text-xs text-[11px] bg-neutral-200 dark:bg-neutral-900 md:py-1 py-[3px] px-2 rounded-md text-stone-900 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer"><EyeIcon className="size-3" />View resume</button>
             </div>
           </div>
@@ -304,7 +304,13 @@ export default function Home() {
             <p className="md:ml-5 ml-3 md:text-xs text-[11px]">Work I’ve done outside personal projects.</p>
             <div className="flex flex-col justify-start items-start w-full mt-5 mr-1.5">
               <div className="flex flex-col justify-start items-start">
-                <p className="md:ml-5 ml-3 md:text-sm text-[13px] flex justify-start items-center gap-2 text-stone-900 dark:text-stone-300"><MilestoneIcon className="md:size-4 size-3.5"/>OSS Contributions</p>
+                <p className="md:ml-5 ml-3 md:text-sm text-[13px] flex justify-start items-center gap-2 text-stone-900 dark:text-stone-300"><MilestoneIcon className="md:size-4 size-3.5"/>Backend Engineer (Contract)</p>
+                <p className="md:ml-10 ml-6 mt-2 md:text-[13px] text-xs flex justify-start items-center gap-2 text-stone-700 dark:text-stone-400"><CodesandboxIcon className="md:size-3 size-[11px]" />Dodox.in</p>
+                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-3 self-start" />Built and shipped backend systems for an AI-based food delivery platform, including cart APIs, server-side product fetching, and portion-size computation.</p>
+                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-3 self-start" />Implemented Redis-based Pub/Sub for asynchronous workflows, along with email/SMS notifications and a distance-based delivery fee engine.</p>
+                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-3 self-start" />Collaborated across frontend and backend teams, contributing multiple pull requests merged into the production codebase.</p>
+                
+                <p className="md:ml-5 ml-3 mt-5 md:text-sm text-[13px] flex justify-start items-center gap-2 text-stone-900 dark:text-stone-300"><MilestoneIcon className="md:size-4 size-3.5"/>OSS Contributions</p>
                 <p className="md:ml-10 ml-6 mt-2 md:text-[13px] text-xs flex justify-start items-center gap-2 text-stone-700 dark:text-stone-400"><GitMergeIcon className="md:size-3 size-[11px]" />antiwork/gumboard</p>
                 <p 
                  onClick={() => window.open("https://github.com/antiwork/gumboard/pull/707", "_blank", "noopener,noreferrer")}
@@ -328,7 +334,7 @@ export default function Home() {
               
                 <p className="md:ml-5 ml-3 mt-5 md:text-sm text-[13px] flex justify-start items-center gap-2 text-stone-900 dark:text-stone-300"><MilestoneIcon className="md:size-4 size-3.5"/>Freelance Work</p>
                 <p className="md:ml-10 ml-6 mt-3 md:text-[13px] text-xs flex justify-start items-center gap-2 text-stone-700 dark:text-stone-400"><ActivityIcon className="md:size-3 size-[11px]" />Clinic Website</p>
-                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-3 self-start" />Designed and developed a responsive single-page website for a Jaipur clinic, featuring service sections, doctor profile, treatment details, and integrated appointment booking.</p>
+                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-3 self-start" />Designed and developed a responsive website for a Jaipur clinic, featuring service sections, doctor profile, treatment details, and integrated appointment booking.</p>
 
               </div>
             </div>
