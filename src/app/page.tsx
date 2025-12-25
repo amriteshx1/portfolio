@@ -242,7 +242,7 @@ export default function Home() {
                     <p className="dark:bg-neutral-900 bg-neutral-200 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Gemini</p>
                     <p className="dark:bg-neutral-900 bg-neutral-200 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Framer Motion</p>
                   </div>
-                  <p className="md:text-[11px] text-[10px] mt-2 text-stone-700 dark:text-stone-400">A unified communication platform with friend management, 1:1 chat, real-time audio/video calling, media sharing, typing indicators, and read receipts. Built on a custom Socket.IO + WebRTC architecture.</p>
+                  <p className="md:text-[11px] text-[10px] mt-2 text-stone-700 dark:text-stone-400">A unified communication platform built on a custom Socket.IO + WebRTC architecture with friend management, 1:1 chat, real-time audio/video calling, media sharing, typing indicators, read receipts, and an integrated AI-powered chatbot.</p>
                 </div>
               </div>
 
