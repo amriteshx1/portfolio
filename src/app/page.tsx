@@ -220,7 +220,7 @@ export default function Home() {
                        onClick={() => window.open("https://whisp-blue.vercel.app/", "_blank", "noopener,noreferrer")}
                        className="md:size-[18px] size-[17px] border-r border-r-neutral-300 dark:border-r-neutral-800 pr-1 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer" />
                       <PlayIcon 
-                       onClick={() => window.open("https://drive.google.com/file/d/1dd-OGme4xtUxZzBdAc7iMnx7wkRXqa0d/view?usp=sharing", "_blank", "noopener,noreferrer")}
+                       onClick={() => window.open("https://drive.google.com/file/d/1NrPa4wkiV-Z05pUoIdQBWt3cxvh603JB/view?usp=sharing", "_blank", "noopener,noreferrer")}
                        className="md:size-[18px] size-[17px] border-r border-r-neutral-300 dark:border-r-neutral-800 pr-1 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer" />
                       <FolderCodeIcon 
                        onClick={() => window.open("https://github.com/amriteshx1/whisp", "_blank", "noopener,noreferrer")}
