@@ -101,7 +101,7 @@ export default function Home() {
                }}
                className="flex items-center gap-1 tracking-tight md:text-xs text-[11px] bg-neutral-200 dark:bg-neutral-900 md:ml-5 ml-3 md:py-1 py-[3px] px-2 rounded-md text-stone-900 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer"><UserSearchIcon className="size-3" />Available for new opportunities</button>
               <button 
-               onClick={() => window.open("https://drive.google.com/file/d/1juVtUS3pT-YhdO5olxxM42wf4s4PlzdI/view?usp=sharing", "_blank", "noopener,noreferrer")}
+               onClick={() => window.open("https://drive.google.com/file/d/1NrPa4wkiV-Z05pUoIdQBWt3cxvh603JB/view?usp=sharing", "_blank", "noopener,noreferrer")}
                className="flex items-center gap-1 tracking-tight md:text-xs text-[11px] bg-neutral-200 dark:bg-neutral-900 md:py-1 py-[3px] px-2 rounded-md text-stone-900 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer"><EyeIcon className="size-3" />View resume</button>
             </div>
           </div>
@@ -304,7 +304,7 @@ export default function Home() {
             <p className="md:ml-5 ml-3 md:text-xs text-[11px]">Work I’ve done outside personal projects.</p>
             <div className="flex flex-col justify-start items-start w-full mt-5 mr-1.5">
               <div className="flex flex-col justify-start items-start">
-                <p className="md:ml-5 ml-3 md:text-sm text-[13px] flex justify-start items-center gap-2 text-stone-900 dark:text-stone-300"><MilestoneIcon className="md:size-4 size-3.5"/>Backend Engineer (Contract)</p>
+                <p className="md:ml-5 ml-3 md:text-sm text-[13px] flex justify-start items-center gap-2 text-stone-900 dark:text-stone-300"><MilestoneIcon className="md:size-4 size-3.5"/>Full-Stack Engineer</p>
                 <p className="md:ml-10 ml-6 mt-2 md:text-[13px] text-xs flex justify-start items-center gap-2 text-stone-700 dark:text-stone-400"><CodesandboxIcon className="md:size-3 size-[11px]" />Dodox.in</p>
                 <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-3 self-start" />Designed and implemented core application services for an AI-based food delivery platform, including transactional cart workflows, CMS-backed domain modeling, and portion-size computation</p>
                 <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-3 self-start" />Implemented asynchronous workflows using Redis Pub/Sub, integrated third-party messaging services, rule-based delivery pricing, and backend-owned progression services</p>
