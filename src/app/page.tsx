@@ -41,7 +41,7 @@ export default function Home() {
                el.scrollIntoView({ behavior: "smooth", block: "start" });
              }
            }}
-           className="md:text-[15px] text-[11.5px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer">Home</p>
+           className="md:text-[14px] text-[11px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer">Home</p>
           <p 
            onClick={() => {
             const el = document.getElementById("projects");
@@ -49,10 +49,10 @@ export default function Home() {
               el.scrollIntoView({ behavior: "smooth", block: "start" });
             }
            }}
-           className="md:text-[15px] text-[11.5px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer">Projects</p>
+           className="md:text-[14px] text-[11px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer">Projects</p>
           <p 
            onClick={() => toast("Work in progress...")}
-           className="md:text-[15px] text-[11.5px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer md:block hidden">Blogs</p>
+           className="md:text-[14px] text-[11px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer md:block hidden">Blogs</p>
           <p 
            onClick={() => {
              const el = document.getElementById("connect");
@@ -60,7 +60,7 @@ export default function Home() {
                el.scrollIntoView({ behavior: "smooth", block: "start" });
              }
            }}
-           className="md:text-[15px] text-[11.5px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer">Connect</p>
+           className="md:text-[14px] text-[11px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer">Connect</p>
           {dark ? (
             <SunIcon
               onClick={toggleTheme}
