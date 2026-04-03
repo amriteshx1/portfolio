@@ -388,7 +388,7 @@ export default function Home() {
 
           </div>
           <div className="md:w-[80%] w-[90%] flex flex-col items-start justify-center text-stone-800 dark:text-stone-400 py-4">
-            <p className="md:ml-5 ml-3 md:text-[11px] text-[10px]">© 2025 - Amritesh. All rights reserved.</p>
+            <p className="md:ml-5 ml-3 md:text-[11px] text-[10px]">© 2026 - Amritesh. All rights reserved.</p>
           </div>
         </div>
       </div>
