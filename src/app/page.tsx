@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen w-full items-center justify-start bg-white font-sans dark:bg-black overflow-y-auto">
       <div className="lg:h-[7vh] md:h-[5vh] h-[6vh] w-full flex justify-center items-center border border-neutral-300 dark:border-neutral-800 lg:mt-[1vh] mt-[0.5vh]">
-        <div className="h-full lg:w-[60%] w-full flex items-center justify-end md:gap-5 gap-3 border-x border-x-neutral-300 dark:border-x-neutral-800">
+        <div className="h-full lg:w-[60%] w-full flex items-center justify-end md:gap-6 gap-3 border-x border-x-neutral-300 dark:border-x-neutral-800">
           <Binary className="mr-auto md:ml-4 ml-2 md:size-9 size-8 text-black dark:text-white" />
           <p 
            onClick={() => {
@@ -41,7 +41,7 @@ export default function Home() {
                el.scrollIntoView({ behavior: "smooth", block: "start" });
              }
            }}
-           className="md:text-[14px] text-[11px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer">Home</p>
+           className="md:text-xs text-[11px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer">Home</p>
           <p 
            onClick={() => {
             const el = document.getElementById("projects");
@@ -49,10 +49,10 @@ export default function Home() {
               el.scrollIntoView({ behavior: "smooth", block: "start" });
             }
            }}
-           className="md:text-[14px] text-[11px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer">Projects</p>
+           className="md:text-xs text-[11px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer">Projects</p>
           <p 
            onClick={() => toast("Work in progress...")}
-           className="md:text-[14px] text-[11px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer md:block hidden">Blogs</p>
+           className="md:text-xs text-[11px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer md:block hidden">Blogs</p>
           <p 
            onClick={() => {
              const el = document.getElementById("connect");
@@ -60,16 +60,16 @@ export default function Home() {
                el.scrollIntoView({ behavior: "smooth", block: "start" });
              }
            }}
-           className="md:text-[14px] text-[11px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer">Connect</p>
+           className="md:text-xs text-[11px] text-stone-800 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-600 cursor-pointer">Connect</p>
           {dark ? (
             <SunIcon
               onClick={toggleTheme}
-              className="md:mr-5 mr-3 size-4 cursor-pointer text-stone-400 hover:text-stone-300"
+              className="md:mr-5 mr-3 size-3.5 cursor-pointer text-stone-400 hover:text-stone-300"
             />
           ) : (
             <MoonIcon
               onClick={toggleTheme}
-              className="md:mr-5 mr-3 size-4 cursor-pointer text-stone-800 hover:text-stone-600"
+              className="md:mr-5 mr-3 size-3.5 cursor-pointer text-stone-800 hover:text-stone-600"
             />
           )}
 
