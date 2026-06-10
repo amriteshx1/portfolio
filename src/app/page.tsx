@@ -33,7 +33,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen w-full items-center justify-start bg-neutral-50 font-sans dark:bg-neutral-950 overflow-y-auto">
       <div className="lg:h-[7vh] md:h-[5vh] h-[6vh] w-full flex justify-center items-center border border-neutral-50 dark:border-neutral-950">
         <div className="h-full lg:w-[60%] w-full flex items-center justify-end md:gap-6 gap-3 border-x border-x-neutral-50 dark:border-x-neutral-950">
-          <Binary className="mr-auto md:ml-4 ml-2 md:size-9 size-8 text-black dark:text-white" />
+          <Binary className="mr-auto md:ml-4 ml-2 md:size-6 size-5 text-black dark:text-white" />
           <p 
            onClick={() => {
              const el = document.getElementById("home");
