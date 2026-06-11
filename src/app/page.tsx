@@ -104,7 +104,7 @@ export default function Home() {
                }}
                className="flex items-center gap-1 tracking-tight md:text-[10px] text-[8px] border border-neutral-200 dark:border-neutral-900 bg-neutral-200 dark:bg-neutral-900 md:ml-5 ml-3 md:py-1 py-[3px] px-2 rounded-md text-stone-900 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer"><UserSearchIcon className="size-2.5" />Available for new opportunities</button>
               <button 
-               onClick={() => window.open("https://drive.google.com/file/d/1rB9-UIHd3YvVywjLul68e1QMZ_ahXngM/view?usp=sharing", "_blank", "noopener,noreferrer")}
+               onClick={() => window.open("https://drive.google.com/file/d/1a3utR2VKPg1tAZZAr2esYE1WHxTUO-Uf/view?usp=sharing", "_blank", "noopener,noreferrer")}
                className="flex items-center gap-1 tracking-tight md:text-[10px] text-[8px] border border-neutral-200 dark:border-neutral-900 md:py-1 py-[3px] px-2 rounded-md text-stone-900 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer"><EyeIcon className="size-2.5" />View resume</button>
             </div>
           </div>
