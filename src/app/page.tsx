@@ -78,9 +78,9 @@ export default function Home() {
 
       <div id="home" className="lg:h-[40vh] h-[25vh] w-full flex justify-center items-center">
         <div className="h-full lg:w-[60%] w-full flex flex-col items-center justify-center gap-2 border-x border-x-neutral-50 dark:border-x-neutral-950">
-          <span className="md:text-4xl text-2xl text-black dark:text-white">grit</span>
-          <span className="md:text-sm text-xs text-stone-800 dark:text-stone-400">[grit]  .  noun</span>
-          <span className="md:text-xs text-[10px] text-stone-800 dark:text-stone-400 md:max-w-sm max-w-xs text-center italic">strength of character forged through adversity; the resolve to keep moving forward when comfort, talent, and circumstance fall short.</span>
+          <span className="md:text-4xl text-2xl text-black dark:text-white">xyz</span>
+          <span className="md:text-sm text-xs text-stone-800 dark:text-stone-400">[xyz]  .  noun</span>
+          <span className="md:text-xs text-[10px] text-stone-800 dark:text-stone-400 md:max-w-sm max-w-xs text-center italic">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem </span>
         </div>
       </div>
 
