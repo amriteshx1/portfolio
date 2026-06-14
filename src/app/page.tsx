@@ -77,10 +77,9 @@ export default function Home() {
       </div>
 
       <div id="home" className="lg:h-[40vh] h-[25vh] w-full flex justify-center items-center">
-        <div className="h-full lg:w-[60%] w-full flex flex-col items-center justify-center gap-2 border-x border-x-neutral-50 dark:border-x-neutral-950">
-          <span className="md:text-4xl text-2xl text-black dark:text-white">xyz</span>
-          <span className="md:text-sm text-xs text-stone-800 dark:text-stone-400">[xyz]  .  noun</span>
-          <span className="md:text-xs text-[10px] text-stone-800 dark:text-stone-400 md:max-w-sm max-w-xs text-center italic">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem </span>
+        <div className="h-full lg:w-[60%] w-full flex flex-col items-center justify-center md:gap-2 gap-1 border-x border-x-neutral-50 dark:border-x-neutral-950">
+          <span className="md:text-sm text-xs text-stone-800 dark:text-stone-400">whatever it</span>
+          <span className="md:text-4xl text-2xl text-black dark:text-white">TAKES.</span>
         </div>
       </div>
 
@@ -90,7 +89,7 @@ export default function Home() {
             {/* <img src="/me.png" alt="Amritesh's ProfilePic" className="max-h-full rounded-full bg-black border border-neutral-950" /> */}
           </div>
 
-          <div className="md:w-[80%] w-[90%] flex flex-col justify-center items-start text-stone-800 dark:text-stone-400 py-8 mr-1.5">
+          <div className="md:w-[80%] w-[90%] flex flex-col justify-center items-start text-stone-800 dark:text-stone-400 py-5 mr-1.5">
             <p className="md:ml-5 ml-3 tracking-tight md:text-sm text-xs">Hey, I'm</p>
             <p className="md:text-2xl text-xl font-medium tracking-tight text-black dark:text-white md:ml-5 ml-3">Amritesh!</p>
             <p className="md:ml-5 ml-3 md:text-xs text-[10px] md:mt-3 mt-1">&lt;Full-Stack Engineer, Systems Thinker, In-Code Designer, and a Perpetual Learner. /&gt;</p>
@@ -102,10 +101,10 @@ export default function Home() {
                   el.scrollIntoView({ behavior: "smooth", block: "start" });
                 }
                }}
-               className="flex items-center gap-1 tracking-tight md:text-[10px] text-[8px] border border-neutral-200 dark:border-neutral-900 bg-neutral-200 dark:bg-neutral-900 md:ml-5 ml-3 md:py-1 py-[3px] px-2 rounded-md text-stone-900 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer"><UserSearchIcon className="size-2.5" />Available for new opportunities</button>
+               className="flex items-center gap-1 tracking-tight md:text-xs text-[10px] border border-neutral-200 dark:border-neutral-900 bg-neutral-200 dark:bg-neutral-900 md:ml-5 ml-3 py-1.5 md:px-3 px-2 rounded-md text-stone-950 dark:text-stone-300 dark:hover:text-stone-200 hover:text-stone-800 cursor-pointer"><UserSearchIcon className="size-3" />Available for new opportunities</button>
               <button 
                onClick={() => window.open("https://drive.google.com/file/d/1a3utR2VKPg1tAZZAr2esYE1WHxTUO-Uf/view?usp=sharing", "_blank", "noopener,noreferrer")}
-               className="flex items-center gap-1 tracking-tight md:text-[10px] text-[8px] border border-neutral-200 dark:border-neutral-900 md:py-1 py-[3px] px-2 rounded-md text-stone-900 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer"><EyeIcon className="size-2.5" />View resume</button>
+               className="flex items-center gap-1 tracking-tight md:text-xs text-[10px] border border-neutral-200 dark:border-neutral-900 py-1.5 md:px-3 px-2 rounded-md text-stone-900 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer"><EyeIcon className="size-3" />View resume</button>
             </div>
           </div>
         </div>
@@ -187,43 +186,43 @@ export default function Home() {
               <div className="flex flex-col justify-start items-start">
                 <p className="md:ml-5 ml-3 md:text-sm text-[13px] flex justify-start items-center gap-2 text-stone-900 dark:text-stone-300"><MilestoneIcon className="md:size-4 size-3.5"/>Software Engineer |<span className="italic text-stone-700/90 dark:text-stone-400/90 md:text-[11px] text-[10px]">Jan 2026 - Present</span></p>
                 <p className="md:ml-10 ml-6 mt-2 md:text-[13px] text-xs flex justify-start items-center gap-2 text-stone-700 dark:text-stone-400"><SquareDashedTopSolid className="md:size-3 size-[11px]" />Clearpaper (UK)</p>
-                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-3 self-start" />Architected and shipped core systems for a multi-tenant legal SaaS platform, including tenant isolation, role-based access control, hierarchical permissions, audit logging, and collaboration workflows</p>
-                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-3 self-start" />Engineered secure document infrastructure with S3-backed storage, signed URL access, versioning, extraction pipelines, and permission-aware operations across matters and folders</p>
-                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-3 self-start" />Built AI-assisted time tracking workflows end-to-end, integrating desktop activity ingestion, activity normalization, intelligent matter assignment, approval pipelines, and learning-based matter memory systems</p>
-                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-3 self-start" />Worked directly with the technical founder to design and deliver production features across backend systems, authentication, Microsoft OAuth, email workflows, search, and frontend experiences</p>
+                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-4 self-start" />Architected and shipped core systems for a multi-tenant legal SaaS platform, including tenant isolation, role-based access control, hierarchical permissions, audit logging, and collaboration workflows</p>
+                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-4 self-start" />Engineered secure document infrastructure with S3-backed storage, signed URL access, versioning, extraction pipelines, and permission-aware operations across matters and folders</p>
+                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-4 self-start" />Built AI-assisted time tracking workflows end-to-end, integrating desktop activity ingestion, activity normalization, intelligent matter assignment, approval pipelines, and learning-based matter memory systems</p>
+                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-4 self-start" />Worked directly with the technical founder to design and deliver production features across backend systems, authentication, Microsoft OAuth, email workflows, search, and frontend experiences</p>
 
                 <p className="md:ml-5 ml-3 mt-5 md:text-sm text-[13px] flex justify-start items-center gap-2 text-stone-900 dark:text-stone-300"><MilestoneIcon className="md:size-4 size-3.5"/>Full-Stack Intern |<span className="italic text-stone-700/90 dark:text-stone-400/90 md:text-[11px] text-[10px]">Nov 2025 - Dec 2025</span></p>
                 <p className="md:ml-10 ml-6 mt-2 md:text-[13px] text-xs flex justify-start items-center gap-2 text-stone-700 dark:text-stone-400"><CodesandboxIcon className="md:size-3 size-[11px]" />Dodox.in</p>
-                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-3 self-start" />Designed and implemented core application services for an AI-based food delivery platform, including transactional cart workflows, CMS-backed domain modeling, and portion-size computation</p>
-                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-3 self-start" />Implemented asynchronous workflows using Redis Pub/Sub, integrated third-party messaging services, rule-based delivery pricing, and backend-owned progression services</p>
-                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-3 self-start" />Collaborated across frontend and backend codebases, delivering production changes that eliminated hardcoded logic, enforced centralized data ownership, improved system stability, and launch readiness</p>
+                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-4 self-start" />Designed and implemented core application services for an AI-based food delivery platform, including transactional cart workflows, CMS-backed domain modeling, and portion-size computation</p>
+                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-4 self-start" />Implemented asynchronous workflows using Redis Pub/Sub, integrated third-party messaging services, rule-based delivery pricing, and backend-owned progression services</p>
+                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-4 self-start" />Collaborated across frontend and backend codebases, delivering production changes that eliminated hardcoded logic, enforced centralized data ownership, improved system stability, and launch readiness</p>
 
                 <p className="md:ml-5 ml-3 mt-5 md:text-sm text-[13px] flex justify-start items-center gap-2 text-stone-900 dark:text-stone-300"><MilestoneIcon className="md:size-4 size-3.5"/>Freelance Project |<span className="italic text-stone-700/90 dark:text-stone-400/90 md:text-[11px] text-[10px]">Oct 2025 - Nov 2025</span></p>
                 <p className="md:ml-10 ml-6 mt-3 md:text-[13px] text-xs flex justify-start items-center gap-2 text-stone-700 dark:text-stone-400"><ActivityIcon className="md:size-3 size-[11px]" />BCG LifeSpark Healthcare Website</p>
-                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-3 self-start" />Designed and developed a responsive clinic website featuring service sections, doctor profile, treatment details, and appointment booking</p>
-                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-3 self-start" />Structured modular React components and dynamic content sections to support scalable healthcare information and smooth page navigation</p>
+                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-4 self-start" />Designed and developed a responsive clinic website featuring service sections, doctor profile, treatment details, and appointment booking</p>
+                <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-4 self-start" />Structured modular React components and dynamic content sections to support scalable healthcare information and smooth page navigation</p>
 
                 <p className="md:ml-5 ml-3 mt-5 md:text-sm text-[13px] flex justify-start items-center gap-2 text-stone-900 dark:text-stone-300"><MilestoneIcon className="md:size-4 size-3.5"/>OSS Contributions |<span className="italic text-stone-700/90 dark:text-stone-400/90 md:text-[11px] text-[10px]">Aug 2025 - Sep 2025</span></p>
                 <p className="md:ml-10 ml-6 mt-2 md:text-[13px] text-xs flex justify-start items-center gap-2 text-stone-700 dark:text-stone-400"><GitMergeIcon className="md:size-3 size-[11px]" />antiwork/gumboard</p>
                 <p 
                  onClick={() => window.open("https://github.com/antiwork/gumboard/pull/707", "_blank", "noopener,noreferrer")}
-                 className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90 dark:hover:text-stone-300/70 hover:text-stone-600/90 cursor-pointer"><DotIcon className="size-3" />feat: enhance invites UI/UX with calendar picker, cancel feedback, and number input</p>
+                 className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90 dark:hover:text-stone-300/70 hover:text-stone-600/90 cursor-pointer"><DotIcon className="size-4" />feat: enhance invites UI/UX with calendar picker, cancel feedback, and number input</p>
                 <p 
                  onClick={() => window.open("https://github.com/antiwork/gumboard/pull/695", "_blank", "noopener,noreferrer")}
-                 className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90 dark:hover:text-stone-300/70 hover:text-stone-600/90 cursor-pointer"><DotIcon className="size-3" />fix: allow Board settings dialog to close when clicking outside</p>
+                 className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90 dark:hover:text-stone-300/70 hover:text-stone-600/90 cursor-pointer"><DotIcon className="size-4" />fix: allow Board settings dialog to close when clicking outside</p>
                 <p 
                  onClick={() => window.open("https://github.com/antiwork/gumboard/pull/687", "_blank", "noopener,noreferrer")}
-                 className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90 dark:hover:text-stone-300/70 hover:text-stone-600/90 cursor-pointer"><DotIcon className="size-3" />fix: improve tablet responsiveness for card grid</p>
+                 className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90 dark:hover:text-stone-300/70 hover:text-stone-600/90 cursor-pointer"><DotIcon className="size-4" />fix: improve tablet responsiveness for card grid</p>
               
                 <p className="md:ml-10 ml-6 mt-3 md:text-[13px] text-xs flex justify-start items-center gap-2 text-stone-700 dark:text-stone-400"><GitMergeIcon className="md:size-3 size-[11px]" />antiwork/flexile</p>
                 <p 
                  onClick={() => window.open("https://github.com/antiwork/flexile/pull/1044", "_blank", "noopener,noreferrer")}
-                 className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90 dark:hover:text-stone-300/70 hover:text-stone-600/90 cursor-pointer"><DotIcon className="size-3" />fix: heading overflow issue by adjusting responsive font sizes</p>
+                 className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90 dark:hover:text-stone-300/70 hover:text-stone-600/90 cursor-pointer"><DotIcon className="size-4" />fix: heading overflow issue by adjusting responsive font sizes</p>
 
                 <p className="md:ml-10 ml-6 mt-3 md:text-[13px] text-xs flex justify-start items-center gap-2 text-stone-700 dark:text-stone-400"><GitMergeIcon className="md:size-3 size-[11px]" />spectrum-ui</p>
                 <p 
                  onClick={() => window.open("https://github.com/arihantcodes/spectrum-ui/pull/100", "_blank", "noopener,noreferrer")}
-                 className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90 dark:hover:text-stone-300/70 hover:text-stone-600/90 cursor-pointer"><DotIcon className="size-3" />fix: optimize animated card demo to improve interaction smoothness</p>
+                 className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90 dark:hover:text-stone-300/70 hover:text-stone-600/90 cursor-pointer"><DotIcon className="size-4" />fix: optimize animated card demo to improve interaction smoothness</p>
 
               </div>
             </div>
@@ -267,19 +266,19 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="flex flex-wrap justify-start items-center gap-2 md:text-[9px] text-[8px] mt-2">
-                    <p className="bg-neutral-50 dark:bg-neutral-950 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">Next.js</p>
-                    <p className="bg-neutral-50 dark:bg-neutral-950 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">React</p>
-                    <p className="bg-neutral-50 dark:bg-neutral-950 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">TypeScript</p>
-                    <p className="bg-neutral-50 dark:bg-neutral-950 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">TailwindCSS</p>
-                    <p className="bg-neutral-50 dark:bg-neutral-950 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">shadcn/ui</p>
-                    <p className="bg-neutral-50 dark:bg-neutral-950 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">Stream Video/Chat SDK</p>
-                    <p className="bg-neutral-50 dark:bg-neutral-950 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">OpenAI Realtime</p>
-                    <p className="bg-neutral-50 dark:bg-neutral-950 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">tRPC</p>
-                    <p className="bg-neutral-50 dark:bg-neutral-950 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">Inngest</p>
-                    <p className="bg-neutral-50 dark:bg-neutral-950 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">Neon (Postgres)</p>
-                    <p className="bg-neutral-50 dark:bg-neutral-950 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">Drizzle</p>
-                    <p className="bg-neutral-50 dark:bg-neutral-950 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">BetterAuth</p>
-                    <p className="bg-neutral-50 dark:bg-neutral-950 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">Polar</p>
+                    <p className="bg-neutral-200 dark:bg-neutral-900 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">Next.js</p>
+                    <p className="bg-neutral-200 dark:bg-neutral-900 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">React</p>
+                    <p className="bg-neutral-200 dark:bg-neutral-900 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">TypeScript</p>
+                    <p className="bg-neutral-200 dark:bg-neutral-900 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">TailwindCSS</p>
+                    <p className="bg-neutral-200 dark:bg-neutral-900 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">shadcn/ui</p>
+                    <p className="bg-neutral-200 dark:bg-neutral-900 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">Stream Video/Chat SDK</p>
+                    <p className="bg-neutral-200 dark:bg-neutral-900 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">OpenAI Realtime</p>
+                    <p className="bg-neutral-200 dark:bg-neutral-900 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">tRPC</p>
+                    <p className="bg-neutral-200 dark:bg-neutral-900 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">Inngest</p>
+                    <p className="bg-neutral-200 dark:bg-neutral-900 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">Neon (Postgres)</p>
+                    <p className="bg-neutral-200 dark:bg-neutral-900 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">Drizzle</p>
+                    <p className="bg-neutral-200 dark:bg-neutral-900 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">BetterAuth</p>
+                    <p className="bg-neutral-200 dark:bg-neutral-900 text-stone-800 dark:text-stone-400 px-1.5 py-[0.2] rounded-sm">Polar</p>
                   </div>
                   <p className="md:text-[11px] text-[10px] mt-2 text-stone-700 dark:text-stone-400">A next-gen video meeting platform where custom AI agents join live calls, handle context-aware user queries, generate transcripts and summaries, and produce post-call insights. Includes real-time voice workflows built with Stream + OpenAI, along with dashboards, authentication, and subscription billing.</p>
                 </div>
@@ -303,19 +302,19 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="flex flex-wrap justify-start items-center gap-2 md:text-[9px] text-[8px] mt-2">
-                    <p className="dark:bg-neutral-950 bg-neutral-50 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">React</p>
-                    <p className="dark:bg-neutral-950 bg-neutral-50 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">TypeScript</p>
-                    <p className="dark:bg-neutral-950 bg-neutral-50 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">TailwindCSS</p>
-                    <p className="dark:bg-neutral-950 bg-neutral-50 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Vite</p>
-                    <p className="dark:bg-neutral-950 bg-neutral-50 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Socket.IO</p>
-                    <p className="dark:bg-neutral-950 bg-neutral-50 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">WebRTC</p>
-                    <p className="dark:bg-neutral-950 bg-neutral-50 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Node.js</p>
-                    <p className="dark:bg-neutral-950 bg-neutral-50 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Express</p>
-                    <p className="dark:bg-neutral-950 bg-neutral-50 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">MongoDB</p>
-                    <p className="dark:bg-neutral-950 bg-neutral-50 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Google OAuth2</p>
-                    <p className="dark:bg-neutral-950 bg-neutral-50 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Cloudinary</p>
-                    <p className="dark:bg-neutral-950 bg-neutral-50 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Gemini</p>
-                    <p className="dark:bg-neutral-950 bg-neutral-50 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Framer Motion</p>
+                    <p className="dark:bg-neutral-900 bg-neutral-200 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">React</p>
+                    <p className="dark:bg-neutral-900 bg-neutral-200 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">TypeScript</p>
+                    <p className="dark:bg-neutral-900 bg-neutral-200 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">TailwindCSS</p>
+                    <p className="dark:bg-neutral-900 bg-neutral-200 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Vite</p>
+                    <p className="dark:bg-neutral-900 bg-neutral-200 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Socket.IO</p>
+                    <p className="dark:bg-neutral-900 bg-neutral-200 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">WebRTC</p>
+                    <p className="dark:bg-neutral-900 bg-neutral-200 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Node.js</p>
+                    <p className="dark:bg-neutral-900 bg-neutral-200 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Express</p>
+                    <p className="dark:bg-neutral-900 bg-neutral-200 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">MongoDB</p>
+                    <p className="dark:bg-neutral-900 bg-neutral-200 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Google OAuth2</p>
+                    <p className="dark:bg-neutral-900 bg-neutral-200 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Cloudinary</p>
+                    <p className="dark:bg-neutral-900 bg-neutral-200 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Gemini</p>
+                    <p className="dark:bg-neutral-900 bg-neutral-200 dark:text-stone-400 text-stone-800 px-1.5 py-[0.2] rounded-sm">Framer Motion</p>
                   </div>
                   <p className="md:text-[11px] text-[10px] mt-2 text-stone-700 dark:text-stone-400">A unified communication platform built on a custom Socket.IO + WebRTC architecture with friend management, 1:1 chat, real-time audio/video calling, media sharing, typing indicators, read receipts, and an integrated AI-powered chatbot.</p>
                 </div>
@@ -377,16 +376,16 @@ export default function Home() {
             <div className="flex justify-start items-center w-full mt-5">
               <p 
                onClick={() => window.open("https://x.com/anontwtx1", "_blank", "noopener,noreferrer")}
-               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-900 dark:text-stone-300 dark:hover:text-stone-200 hover:text-stone-700 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 dark:bg-neutral-900 bg-neutral-200 rounded-sm"><Twitter className="md:size-3.5 size-3 p-0" />Twitter</p>
+               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-900 dark:text-stone-300 dark:hover:text-stone-200 hover:text-stone-700 cursor-pointer py-1.5 md:px-3 px-2 dark:bg-neutral-900 bg-neutral-200 rounded-sm"><Twitter className="md:size-3.5 size-3 p-0" />Twitter</p>
               <p 
                onClick={() => window.location.href = "mailto:amriteshx18@gmail.com"}
-               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-900 dark:text-stone-300 dark:hover:text-stone-200 hover:text-stone-700 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 dark:bg-neutral-900 bg-neutral-200 rounded-sm"><MailIcon className="md:size-3.5 size-3 p-0" />Mail</p>
+               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-900 dark:text-stone-300 dark:hover:text-stone-200 hover:text-stone-700 cursor-pointer py-1.5 md:px-3 px-2 dark:bg-neutral-900 bg-neutral-200 rounded-sm"><MailIcon className="md:size-3.5 size-3 p-0" />Mail</p>
               <p 
                onClick={() => window.open("https://www.linkedin.com/in/amritesh-gautam/", "_blank", "noopener,noreferrer")}
-               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-900 dark:text-stone-300 dark:hover:text-stone-200 hover:text-stone-700 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 dark:bg-neutral-900 bg-neutral-200 rounded-sm"><LinkedinIcon className="md:size-3.5 size-3 p-0" />LinkedIn</p>
+               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-900 dark:text-stone-300 dark:hover:text-stone-200 hover:text-stone-700 cursor-pointer py-1.5 md:px-3 px-2 dark:bg-neutral-900 bg-neutral-200 rounded-sm"><LinkedinIcon className="md:size-3.5 size-3 p-0" />LinkedIn</p>
               <p 
                onClick={() => window.open("https://github.com/amriteshx1", "_blank", "noopener,noreferrer")}
-               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-900 dark:text-stone-300 dark:hover:text-stone-200 hover:text-stone-700 cursor-pointer md:py-1.5 py-1 md:px-3 px-2 dark:bg-neutral-900 bg-neutral-200 rounded-sm"><GithubIcon className="md:size-3.5 size-3 p-0" />Github</p>
+               className="md:ml-5 ml-3 md:text-[13px] text-xs flex items-center justify-center md:gap-1.5 gap-1 text-stone-900 dark:text-stone-300 dark:hover:text-stone-200 hover:text-stone-700 cursor-pointer py-1.5 md:px-3 px-2 dark:bg-neutral-900 bg-neutral-200 rounded-sm"><GithubIcon className="md:size-3.5 size-3 p-0" />Github</p>
 
             </div>
           </div>
