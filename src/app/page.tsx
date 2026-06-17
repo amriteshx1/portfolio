@@ -184,7 +184,7 @@ export default function Home() {
             <p className="md:ml-5 ml-3 md:text-xs text-[10px]">Selected work and responsibilities.</p>
             <div className="flex flex-col justify-start items-start w-full mt-5 mr-1.5">
               <div className="flex flex-col justify-start items-start">
-                <p className="md:ml-5 ml-3 md:text-sm text-[13px] flex justify-start items-center gap-2 text-stone-900 dark:text-stone-300"><MilestoneIcon className="md:size-4 size-3.5"/>Software Engineer |<span className="italic text-stone-700/90 dark:text-stone-400/90 md:text-[11px] text-[10px]">Jan 2026 - Present</span></p>
+                <p className="md:ml-5 ml-3 md:text-sm text-[13px] flex justify-start items-center gap-2 text-stone-900 dark:text-stone-300"><MilestoneIcon className="md:size-4 size-3.5"/>Software Engineer (Contract) |<span className="italic text-stone-700/90 dark:text-stone-400/90 md:text-[11px] text-[10px]">Jan 2026 - Present</span></p>
                 <p className="md:ml-10 ml-6 mt-2 md:text-[13px] text-xs flex justify-start items-center gap-2 text-stone-700 dark:text-stone-400"><SquareDashedTopSolid className="md:size-3 size-[11px]" />Clearpaper (UK)</p>
                 <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-4 self-start" />Architected and shipped core systems for a multi-tenant legal SaaS platform, including tenant isolation, role-based access control, hierarchical permissions, audit logging, and collaboration workflows</p>
                 <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-4 self-start" />Engineered secure document infrastructure with S3-backed storage, signed URL access, versioning, extraction pipelines, and permission-aware operations across matters and folders</p>
@@ -350,7 +350,7 @@ export default function Home() {
               </div>
               <div className="md:w-[30%] w-[20%] flex flex-col justify-start items-end">
                 <p className="md:mr-5 mr-3 mt-5 md:text-sm text-[11px] text-stone-900 dark:text-stone-300">2023-27</p>
-                <p className="md:mr-5 mr-3 mt-1 md:text-xs text-[10px] text-stone-700 dark:text-stone-400">CGPA: 9.19</p>
+                <p className="md:mr-5 mr-3 mt-1 md:text-xs text-[10px] text-stone-700 dark:text-stone-400">CGPA: 9.23</p>
               </div>
             </div>
           </div>
