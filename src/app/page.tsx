@@ -103,7 +103,7 @@ export default function Home() {
                }}
                className="flex items-center gap-1 tracking-tight md:text-xs text-[10px] border border-neutral-200 dark:border-neutral-900 bg-neutral-200 dark:bg-neutral-900 md:ml-5 ml-3 py-1.5 md:px-3 px-2 rounded-md text-stone-950 dark:text-stone-300 dark:hover:text-stone-200 hover:text-stone-800 cursor-pointer"><UserSearchIcon className="size-3" />Available for new opportunities</button>
               <button 
-               onClick={() => window.open("https://drive.google.com/file/d/1a3utR2VKPg1tAZZAr2esYE1WHxTUO-Uf/view?usp=sharing", "_blank", "noopener,noreferrer")}
+               onClick={() => window.open("https://drive.google.com/file/d/12IxbK5UU9_bJ39iP2IXE41cd6Q-0Y1Hh/view?usp=sharing", "_blank", "noopener,noreferrer")}
                className="flex items-center gap-1 tracking-tight md:text-xs text-[10px] border border-neutral-200 dark:border-neutral-900 py-1.5 md:px-3 px-2 rounded-md text-stone-900 dark:text-stone-400 dark:hover:text-stone-300 hover:text-stone-700 cursor-pointer"><EyeIcon className="size-3" />View resume</button>
             </div>
           </div>
@@ -185,7 +185,7 @@ export default function Home() {
             <div className="flex flex-col justify-start items-start w-full mt-5 mr-1.5">
               <div className="flex flex-col justify-start items-start">
                 <p className="md:ml-5 ml-3 md:text-sm text-[13px] flex justify-start items-center gap-2 text-stone-900 dark:text-stone-300"><MilestoneIcon className="md:size-4 size-3.5"/>Software Engineer (Contract) |<span className="italic text-stone-700/90 dark:text-stone-400/90 md:text-[11px] text-[10px]">Jan 2026 - Present</span></p>
-                <p className="md:ml-10 ml-6 mt-2 md:text-[13px] text-xs flex justify-start items-center gap-2 text-stone-700 dark:text-stone-400"><SquareDashedTopSolid className="md:size-3 size-[11px]" />Clearpaper (UK)</p>
+                <p className="md:ml-10 ml-6 mt-2 md:text-[13px] text-xs flex justify-start items-center gap-2 text-stone-700 dark:text-stone-400"><SquareDashedTopSolid className="md:size-3 size-[11px]" />Clearpaper (United Kingdom, Remote)</p>
                 <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-4 self-start" />Architected and shipped core systems for a multi-tenant legal SaaS platform, including tenant isolation, role-based access control, hierarchical permissions, audit logging, and collaboration workflows</p>
                 <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-4 self-start" />Engineered secure document infrastructure with S3-backed storage, signed URL access, versioning, extraction pipelines, and permission-aware operations across matters and folders</p>
                 <p className="md:ml-15 ml-10 mt-2 md:text-[11px] text-[10px] flex justify-start md:items-center items-start gap-0.5 text-stone-700/90 dark:text-stone-400/90"><DotIcon className="size-4 self-start" />Built AI-assisted time tracking workflows end-to-end, integrating desktop activity ingestion, activity normalization, intelligent matter assignment, approval pipelines, and learning-based matter memory systems</p>
